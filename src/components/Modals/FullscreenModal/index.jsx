@@ -19,12 +19,10 @@
 import React from 'react'
 import { Modal } from 'components/Base'
 import classnames from 'classnames'
-import { inject } from 'mobx-react'
 
 import styles from './index.scss'
 
 export default function FullscreenModal(WrappedComponent, options = {}) {
-  @inject('rootStore')
   class observerModal extends React.Component {
     pageClose() {
       window.opener = null

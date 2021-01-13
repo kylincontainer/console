@@ -51,12 +51,12 @@ export default class InviteMemberModal extends React.Component {
     onCancel() {},
   }
 
-  static SECURE_RANK = {
-    gongkai: 1,
-    mimi: 2,
-    jimi: 3,
-    juemi: 4,
-  }
+  // static SECURE_RANK = {
+  //   gongkai: 1,
+  //   mimi: 2,
+  //   jimi: 3,
+  //   juemi: 4,
+  // }
 
   constructor(props) {
     super(props)
@@ -122,13 +122,13 @@ export default class InviteMemberModal extends React.Component {
     } = this.props
     const { members } = this.state
     const { data = [], total, page, isLoading } = toJS(this.userStore.list)
-    const inviteData = () =>
-      data.filter(item => {
-        if (!item.baomi) return false
-        return (
-          this.SECURE_RANK[item.baomi] >= this.SECURE_RANK[globals.user.baomi]
-        )
-      })
+    // const inviteData = () =>
+    //   data.filter(item => {
+    //     if (!item.baomi) return false
+    //     return (
+    //       this.SECURE_RANK[item.baomi] >= this.SECURE_RANK[globals.user.baomi]
+    //     )
+    //   })
 
     return (
       <Modal
@@ -162,7 +162,7 @@ export default class InviteMemberModal extends React.Component {
                 loading={isLoading}
                 onFetch={this.fetchData}
               >
-                {inviteData().map(item => (
+                {data.map(item => (
                   <User
                     key={item.name}
                     user={item}

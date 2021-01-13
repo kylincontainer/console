@@ -63,7 +63,7 @@ export default class NodeDetail extends React.Component {
   getOperations = () => {
     const { unschedulable } = this.store.detail
 
-    return [
+    const operations = [
       {
         key: 'cordon',
         type: unschedulable ? 'control' : 'danger',
@@ -95,6 +95,10 @@ export default class NodeDetail extends React.Component {
           }),
       },
     ]
+    // 不是安全管理员则隐藏编辑管理按钮
+    if (globals.user.globalrole !== 'secure-admin')
+      return operations.filter(operation => operation.key !== 'eidtLabel')
+    return operations
   }
 
   getAttrs = () => {

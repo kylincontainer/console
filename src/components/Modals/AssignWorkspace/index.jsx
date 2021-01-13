@@ -30,11 +30,13 @@ export default class AssignWorkspaceModal extends Component {
   static propTypes = {
     visible: PropTypes.bool,
     onOk: PropTypes.func,
+    detail: PropTypes.any,
     onCancel: PropTypes.func,
   }
 
   static defaultProps = {
     visible: false,
+    detail: {},
     onOk() {},
     onCancel() {},
   }
@@ -57,7 +59,12 @@ export default class AssignWorkspaceModal extends Component {
   }
 
   getWorkspaces() {
-    return this.workspaceStore.list.data.map(item => ({
+    // 如果没有密级那么就是公开
+    const targetProjectLevel = this.props.detail.secureRank || 'gongkai'
+    let data = this.workspaceStore.list.data
+    // 项目只能被分配到同样密级的空间下
+    data = data.filter(item => item.secureRank === targetProjectLevel)
+    return data.map(item => ({
       label: item.name,
       value: item.name,
     }))

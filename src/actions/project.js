@@ -176,7 +176,7 @@ export default {
           })
         },
         modal: AssignWorkspaceModal,
-        store,
+        detail,
         ...props,
       })
     },

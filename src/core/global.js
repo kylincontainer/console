@@ -147,6 +147,10 @@ export default class GlobalValue {
       return false
     }
 
+    if (item.admin && globals.user.cluster_role !== 'cluster-admin') {
+      return false
+    }
+
     if (
       item.clusterModule &&
       item.clusterModule
@@ -212,7 +216,6 @@ export default class GlobalValue {
           navs.push(nav)
         }
       })
-
       this._cache_['globalNavs'] = navs
     }
 
@@ -238,7 +241,22 @@ export default class GlobalValue {
           navs.push({ ...nav, items: filteredItems })
         }
       })
-
+      const role = globals.user.globalrole
+      const clusterItem = navs.find(navItem => navItem.cate === 'cluster')
+      clusterItem.items = clusterItem.items.filter(item => {
+        // 安全管理员（security-admin），只能看到节点管理
+        if (role === 'secure-admin') {
+          return item.title === 'Nodes Management'
+        }
+        // 系统管理员（system-admin），隐藏应用负载和配置中心
+        if (role === 'system-admin') {
+          return !(
+            item.title === 'Application Workloads' ||
+            item.title === 'Configuration Center'
+          )
+        }
+        return true
+      })
       this._cache_[`cluster_${cluster}_navs`] = navs
     }
 
@@ -386,6 +404,10 @@ export default class GlobalValue {
 
   get isMultiCluster() {
     return globals.ksConfig.multicluster
+  }
+
+  get isClusterAdmin() {
+    return globals.user.globalrole === 'cluster-admin'
   }
 
   hasKSModule(module) {

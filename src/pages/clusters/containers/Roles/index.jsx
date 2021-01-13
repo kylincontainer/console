@@ -35,14 +35,14 @@ import RoleStore from 'stores/role'
   name: 'Cluster Role',
 })
 export default class ClusterRoles extends React.Component {
-  static hideRole = ['system-admin', 'audit-admin', 'secure-admin']
+  // static hideRole = ['system-admin', 'audit-admin', 'secure-admin']
 
   componentDidMount() {
     this.props.store.fetchRoleTemplates(this.props.match.params)
   }
 
   showAction = record => {
-    if (this.hideRole.indexOf(record.name) !== -1) return false
+    // if (this.hideRole.indexOf(record.name) !== -1) return false
     return !globals.config.presetClusterRoles.includes(record.name)
   }
 

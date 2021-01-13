@@ -41,6 +41,8 @@ export default {
   USER_NAME_DESC: '用户名只能包含小写字母及数字',
   USER_SETTING_EMAIL_DESC: '邮箱可作为登录账号',
   PASSWORD_DESC: '密码必须包含数字和大小写字母，长度至少为 6 位',
+  SECURITY_LEVEL: '保密级别',
+  SECURITY_LEVEL_DESC: '选择特定的保密级别',
   ROLE_DESC:
     '角色类型根据权限范围分为集群和项目两类，当前角色的授权范围为整个集群.',
   'New Password': '新的密码',

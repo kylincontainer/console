@@ -163,9 +163,9 @@ function handleResponse(response, reject) {
 
   const contentType = response.headers.get('content-type')
   if (contentType && contentType.includes('json')) {
-    // if (response.status === 404) {
-    //   location.href = '/404'
-    // }
+    if (response.status === 404) {
+      location.href = '/404'
+    }
     return response.json().then(data => {
       if (response.status === 401) {
         console.warn('Unauthorized', response, response.ok)

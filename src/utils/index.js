@@ -363,11 +363,14 @@ export const getAliasName = item =>
   get(item, 'metadata.annotations.displayName') ||
   ''
 
-export const getSecureRank = item =>
-  get(
+export const getSecureRank = item => {
+  const projectSecureRank = get(
     item,
     'metadata.annotations["scheduler.alpha.kubernetes.io/node-selector"]'
-  ) || ''
+  )
+  if (projectSecureRank) return projectSecureRank.replace(/baomi=/, '')
+  return get(item, 'metadata.annotations["baomi"]') || ''
+}
 
 export const getDisplayName = item => {
   if (isEmpty(item)) {

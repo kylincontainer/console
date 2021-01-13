@@ -36,6 +36,12 @@ export default class KubeTools extends React.Component {
   @observable
   showTools = 0
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.trigger('toolbox.auditingsearch', {})
+    }, 2000)
+  }
+
   getWindowOpts() {
     return createCenterWindowOpt({
       width: 1200,
@@ -129,11 +135,9 @@ export default class KubeTools extends React.Component {
     e.preventDefault()
     e.stopPropagation()
     const data = e.currentTarget.dataset
-
     if (e.shiftKey || !data.action) {
       return window.open(data.link, data.title, this.getWindowOpts())
     }
-
     this.trigger(data.action, {})
   }
 
@@ -178,6 +182,7 @@ export default class KubeTools extends React.Component {
                   {group.data.map(item => (
                     <List.Item
                       className={styles.toolItem}
+                      name="kubeToolsInnerBt"
                       key={item.key || item.link}
                       icon={item.icon}
                       title={item.title}
@@ -200,7 +205,6 @@ export default class KubeTools extends React.Component {
                   {this.thirdPartyToolList.map(item => (
                     <List.Item
                       className={styles.toolItem}
-                      name="kubeToolsInnerBt"
                       key={item.key || item.link}
                       icon={item.icon}
                       title={item.title}

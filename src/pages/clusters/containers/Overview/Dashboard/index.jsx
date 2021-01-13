@@ -33,16 +33,19 @@ import ServiceComponents from './ServiceComponents'
 @observer
 export default class Dashboard extends React.Component {
   componentDidMount() {
+    // console.log('globals.user.globalrole', globals.user.globalrole)
     this.cluster.fetchVersion(this.props.match.params)
-    if (globals.user.cluster_role === 'audit-admin') {
-      setTimeout(() => {
-        const e = document.createEvent('MouseEvents')
-        e.initEvent('mouseover', true, true)
-        document.getElementsByName('kubeToolsOpenBt')[0].dispatchEvent(e)
-        e.initEvent('mousedown', true, false)
-        document.getElementsByName('kubeToolsInnerBt')[0].dispatchEvent(e)
-      }, 2000)
-    }
+    // if (globals.user.globalrole === 'audit-admin') {
+    //   setTimeout(() => {
+    //     const e = document.createEvent('MouseEvents')
+    //     e.initEvent('mouseover', true, true)
+    //     console.log(document.getElementsByName('kubeToolsOpenBt'))
+    //     document.getElementsByName('kubeToolsOpenBt')[0].dispatchEvent(e)
+    //     e.initEvent('mousedown', true, false)
+    //     console.log(document.getElementsByName('kubeToolsInnerBt'))
+    //     document.getElementsByName('kubeToolsInnerBt')[1].dispatchEvent(e)
+    //   }, 2000)
+    // }
   }
 
   get cluster() {

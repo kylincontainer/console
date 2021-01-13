@@ -307,7 +307,7 @@ label.checkbox {
 
   .select-menu {
     padding: 0;
-    background-color: $dark-color07;
+    // background-color: $dark-color07;
   }
 
   .select-menu-outer {
@@ -318,10 +318,11 @@ label.checkbox {
     .select-menu-outer {
       .select-option {
         font-size: $body-size;
+        color: $dark-color07;
       }
       .is-selected,
       .is-focused {
-        background-color: $dark-color06;
+        background-color: $primary;
         color: white;
       }
     }
@@ -329,7 +330,7 @@ label.checkbox {
 
   &.is-open {
     .select-control {
-      border-color: $primary !important;
+      border-color: $primary;
       box-shadow: 0 4px 8px 0 rgba(85, 188, 138, 0.36);
     }
   }
@@ -347,13 +348,13 @@ label.checkbox {
     padding: 8px;
 
     .select-option {
-      background-color: #242e42;
       padding: 6px 12px;
       color: $white;
       cursor: pointer;
 
       &:hover {
-        color: $dark-color01;
+        background-color: $primary;
+        color: white;
         font-weight: 500;
       }
 
@@ -365,7 +366,7 @@ label.checkbox {
 
     .select-option + .is-selected,
     .select-option + .is-focused {
-      background-color: $dark-color06;
+      background-color: $primary;
       color: white;
     }
   }
@@ -374,7 +375,7 @@ label.checkbox {
     border-color: $input-border-color;
 
     &:hover {
-      border-color: $input-hover-color;
+      border-color: $primary;
     }
   }
 

@@ -33,25 +33,6 @@ import styles from './index.scss'
 
 @observer
 export default class UserCreateModal extends Component {
-  static secureRanksLi = [
-    {
-      label: '公开',
-      value: 'gongkai',
-    },
-    {
-      label: '秘密',
-      value: 'mimi',
-    },
-    {
-      label: '机密',
-      value: 'jimi',
-    },
-    {
-      label: '绝密',
-      value: 'juemi',
-    },
-  ]
-
   static propTypes = {
     store: PropTypes.object,
     detail: PropTypes.object,
@@ -59,19 +40,36 @@ export default class UserCreateModal extends Component {
     onOk: PropTypes.func,
     onCancel: PropTypes.func,
     isSubmitting: PropTypes.bool,
-    projectSecureRank: PropTypes.array,
+    secureRanksLi: PropTypes.array,
   }
 
   static defaultProps = {
     visible: false,
     isSubmitting: false,
-    projectSecureRank: this.secureRanksLi,
+    secureRanksLi: [
+      {
+        label: '公开',
+        value: 'gongkai',
+      },
+      {
+        label: '秘密',
+        value: 'mimi',
+      },
+      {
+        label: '机密',
+        value: 'jimi',
+      },
+      {
+        label: '绝密',
+        value: 'juemi',
+      },
+    ],
     onOk() {},
     onCancel() {},
   }
 
   getSecureRank = () =>
-    this.props.projectSecureRank.map(rank => ({
+    this.props.secureRanksLi.map(rank => ({
       label: rank.label,
       value: rank.value,
       item: rank,
@@ -85,13 +83,13 @@ export default class UserCreateModal extends Component {
 
   handleSecureRoleHide = name => {
     this.isSecureRoleExist = this.props.store.list.data.some(
-      item => item.cluster_role === 'secure-admin'
+      item => item.globalrole === 'secure-admin'
     )
     let isHide = false // 默认不隐藏
     if (this.props.detail)
       isHide =
         this.isSecureRoleExist &&
-        this.props.detail.cluster_role !== 'secure-admin' &&
+        this.props.detail.globalrole !== 'secure-admin' &&
         name === 'secure-admin'
     return !isHide
   }
@@ -178,7 +176,6 @@ export default class UserCreateModal extends Component {
           { type: 'email', message: t('Invalid email') },
           { validator: this.emailValidator },
         ]
-
     return (
       <Modal.Form
         title={t(title)}
@@ -210,17 +207,20 @@ export default class UserCreateModal extends Component {
         <Form.Item label={t('Email')} desc={t('EMAIL_DESC')} rules={emailRules}>
           <Input name="spec.email" placeholder="User@kylin.cn" />
         </Form.Item>
-        {globals.user.cluster_role === 'secure-admin' && (
-          <Form.Item label={t('Secure rank')} desc={t('SECURE_RANK_DESC')}>
+        {globals.user.globalrole === 'secure-admin' && (
+          <Form.Item
+            label={t('SECURITY_LEVEL')}
+            desc={t('SECURITY_LEVEL_DESC')}
+          >
             <Select
-              name="baomi"
+              // name="metadata.annotations['kubesphere.io/node-selector']"
+              name="metadata.annotations['baomi']"
               optionRenderer={this.secureOptionRenderer}
               options={this.getSecureRank()}
               required
             />
           </Form.Item>
         )}
-
         <Form.Item label={t('Role')} desc={t('ROLE_DESC')}>
           <Select
             name="metadata.annotations['iam.kubesphere.io/globalrole']"

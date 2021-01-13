@@ -139,7 +139,7 @@ class BaseLayout extends Component {
           />
         )}
         <div className={styles.main}>{renderRoutes(this.routes)}</div>
-        {globals.user && <Tools />}
+        {globals.user.globalrole === 'audit-admin' && <Tools />}
         {globals.user && (
           <History
             visible={rootStore.showHistory}
