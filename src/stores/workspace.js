@@ -73,6 +73,8 @@ export default class WorkspaceStore extends Base {
     )
 
     this.detail = { ...this.mapper(detail), cluster }
+    // 存储当前的workspace
+    globals.app.workspace = this.detail
     this.isLoading = false
 
     return { ...this.mapper(detail), cluster }

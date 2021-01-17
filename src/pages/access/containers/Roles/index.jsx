@@ -40,7 +40,11 @@ export default class Roles extends React.Component {
     this.props.store.fetchRoleTemplates(this.props.match.params)
   }
 
-  showAction = record => !globals.config.presetGlobalRoles.includes(record.name)
+  showAction = record => {
+    return !['system-admin', 'secure-admin', 'audit-admin'].includes(
+      record.name
+    )
+  }
 
   get itemActions() {
     const { trigger, store, name, module, routing } = this.props
@@ -142,6 +146,11 @@ export default class Roles extends React.Component {
 
   render() {
     const { bannerProps, tableProps } = this.props
+    // 隐藏这四个默认角色 ['workspaces-manager', 'users-manager', 'platform-regular', 'platform-admin']
+    tableProps.data = tableProps.data.filter(item => {
+      return !globals.config.presetGlobalRoles.includes(item.name)
+    })
+
     return (
       <ListPage {...this.props} noWatch>
         <Banner {...bannerProps} tabs={this.tabs} title={t('Account Roles')} />

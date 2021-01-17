@@ -113,6 +113,7 @@ export default class UserCreateModal extends Component {
     return this.globalRoleStore.list.data
       .filter(role => !isSystemRole(role.name))
       .filter(role => this.handleSecureRoleHide(role.name))
+      .filter(role => !globals.config.presetGlobalRoles.includes(role.name))
       .map(role => ({
         label: role.name,
         value: role.name,

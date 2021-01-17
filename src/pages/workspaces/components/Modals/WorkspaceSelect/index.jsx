@@ -80,7 +80,6 @@ export default class WorkspaceSelectModal extends React.Component {
     const canCreate = globals.app
       .getActions({ module: 'workspaces' })
       .includes('manage')
-
     return (
       <Modal
         bodyClassName={styles.body}

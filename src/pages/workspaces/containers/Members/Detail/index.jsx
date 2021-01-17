@@ -115,7 +115,6 @@ export default class MemberDetail extends React.Component {
       detailStore: this.store,
       workspaceStore: this.workspaceStore,
     }
-
     if (this.store.isLoading && !this.store.detail.name) {
       return <Loading className="ks-page-loading" />
     }
