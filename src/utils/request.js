@@ -95,6 +95,7 @@ function buildRequest({
         globals.user.username
       )
     }
+    if (params.rules && !params.rules[0]) params.rules = []
     request.body = JSON.stringify(params)
   }
 
