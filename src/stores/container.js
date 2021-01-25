@@ -52,6 +52,8 @@ export default class ContainerStore {
     return `${path}/namespaces/${namespace}/pods/${podName}`
   }
 
+  getAddress = () => {}
+
   getPath = ({ cluster }) => {
     let path = ''
 

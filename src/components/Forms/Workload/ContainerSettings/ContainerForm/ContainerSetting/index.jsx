@@ -17,9 +17,9 @@
  */
 
 import React from 'react'
-import { get, isEmpty } from 'lodash'
+import { isEmpty } from 'lodash'
 import { generateId } from 'utils'
-
+import { getRegistryAddress } from 'utils/workload'
 import { PATTERN_NAME } from 'utils/constants'
 
 import { Input, Select, Columns, Column } from '@pitrix/lego-ui'
@@ -27,11 +27,22 @@ import { Form, Tag, Alert } from 'components/Base'
 import { ResourceLimit } from 'components/Inputs'
 import ToggleView from 'components/ToggleView'
 
-import ImageInput from './ImageInput'
-
 import styles from './index.scss'
 
 export default class ContainerSetting extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      registryUrl: '',
+    }
+  }
+
+  componentDidMount() {
+    getRegistryAddress().then(res => {
+      this.setState({ registryUrl: res.url })
+    })
+  }
+
   get defaultResourceLimit() {
     const { limitRange = {} } = this.props
 
@@ -52,20 +63,20 @@ export default class ContainerSetting extends React.Component {
     ]
   }
 
-  get imageRegistries() {
-    return this.props.imageRegistries.map(item => {
-      const auths = get(item, 'data[".dockerconfigjson"].auths', {})
-      const url = Object.keys(auths)[0] || ''
-      const username = get(auths[url], 'username')
+  // get imageRegistries() {
+  //   return this.props.imageRegistries.map(item => {
+  //     const auths = get(item, 'data[".dockerconfigjson"].auths', {})
+  //     const url = Object.keys(auths)[0] || ''
+  //     const username = get(auths[url], 'username')
 
-      return {
-        url,
-        username,
-        label: item.name,
-        value: item.name,
-      }
-    })
-  }
+  //     return {
+  //       url,
+  //       username,
+  //       label: item.name,
+  //       value: item.name,
+  //     }
+  //   })
+  // }
 
   valueRenderer = option => (
     <Tag
@@ -76,19 +87,31 @@ export default class ContainerSetting extends React.Component {
     </Tag>
   )
 
+  changeImages = value => {
+    const url = this.state.registryUrl
+    const index = value.indexOf(url)
+    this.props.data.image = index !== -1 ? value : `${url}/library/${value}`
+  }
+
   renderImageForm = () => {
-    const { data, namespace } = this.props
-    const cluster = get(this.props.imageRegistries, '[0].cluster')
+    const { data } = this.props
+    // const cluster = get(this.props.imageRegistries, '[0].cluster')
 
     return (
-      <ImageInput
-        name="image"
-        namespace={namespace}
-        cluster={cluster}
-        className={styles.imageSearch}
-        formTemplate={data}
-        imageRegistries={this.imageRegistries}
-      />
+      // <ImageInput
+      //   name="image"
+      //   namespace={namespace}
+      //   cluster={cluster}
+      //   className={styles.imageSearch}
+      //   formTemplate={data}
+      //   imageRegistries={this.imageRegistries}
+      // />
+      <Form.Item
+        label={t('Image')}
+        rules={[{ required: true, message: t('IMAGE_PLACEHOLDER') }]}
+      >
+        <Input name="image" value={data.image} onChange={this.changeImages} />
+      </Form.Item>
     )
   }
 
@@ -155,6 +178,7 @@ export default class ContainerSetting extends React.Component {
         desc={t('Please set the container name and computing resources.')}
         noWrapper
       >
+        唯一镜像仓库地址：{this.state.registryUrl}
         {this.renderImageForm()}
         {this.renderAdvancedSettings()}
       </Form.Group>

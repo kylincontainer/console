@@ -19,9 +19,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { get, set, throttle, isObject, isEmpty } from 'lodash'
-import classnames from 'classnames'
 import moment from 'moment-mini'
-import { Icon, Loading } from '@pitrix/lego-ui'
+import { Icon } from '@pitrix/lego-ui'
 
 import { getDocsUrl, formatSize } from 'utils'
 
@@ -147,21 +146,23 @@ export default class ImageSearch extends Component {
   renderSelectedContent = () => {
     if (this.state.isLoading) {
       return (
-        <Loading>
-          <div className={styles.selectedContent} />
-        </Loading>
+        // <Loading>
+        //   <div className={styles.selectedContent} />
+        // </Loading>
+        <div />
       )
     }
 
     if (isObject(this.selectedImage)) {
       if (this.selectedImage.status === 'failed') {
         return (
-          <div
-            className={classnames(styles.selectedContent, styles.emptyContent)}
-          >
-            <Icon name="docker" className={styles.icon} />
-            <p className={styles.desc}>{t('Not found this image')}</p>
-          </div>
+          // <div
+          //   className={classnames(styles.selectedContent, styles.emptyContent)}
+          // >
+          //   {/* <Icon name="docker" className={styles.icon} /> */}
+          //   <p className={styles.desc}>{t('Not found this image')}</p>
+          // </div>
+          <div />
         )
       }
 
@@ -220,7 +221,7 @@ export default class ImageSearch extends Component {
               </div>
             </div>
             <div className={styles.selectedInfo}>
-              <Icon name="docker" className={styles.icon} />
+              {/* <Icon name="docker" className={styles.icon} /> */}
               <div className={styles.imageInfo}>
                 <p>{registry}</p>
                 <p>{t('registry')}</p>
@@ -231,10 +232,11 @@ export default class ImageSearch extends Component {
       )
     }
     return (
-      <div className={classnames(styles.selectedContent, styles.emptyContent)}>
-        <Icon name="docker" className={styles.icon} />
-        <p className={styles.desc}>{t('Please select image')}</p>
-      </div>
+      // <div className={classnames(styles.selectedContent, styles.emptyContent)}>
+      //   {/* <Icon name="docker" className={styles.icon} /> */}
+      //   <p className={styles.desc}>{t('Please select image')}</p>
+      // </div>
+      <div />
     )
   }
 

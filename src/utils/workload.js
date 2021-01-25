@@ -252,3 +252,7 @@ export const getWorkloadReplicaCount = (record, module) => {
 
   return result
 }
+
+export const getRegistryAddress = () => {
+  return request.get('/kapis/tenant.kubesphere.io/v1alpha2/harbor')
+}
