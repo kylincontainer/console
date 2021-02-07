@@ -250,6 +250,7 @@ export default class ContainerItem extends React.Component {
           container={detail}
           cluster={cluster}
           onCancel={this.hideContainerLog}
+          closable={false}
         />
       </div>
     )

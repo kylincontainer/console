@@ -35,11 +35,11 @@ export default class Empty extends React.PureComponent {
   }
 
   render() {
-    const { className, img, desc } = this.props
+    const { className, desc } = this.props
 
     return (
       <div className={classnames(styles.wrapper, className)}>
-        <img src={img} alt="No data" />
+        {/* <img src={img} alt="No data" /> */}
         <div className={styles.content}>{t(desc)}</div>
       </div>
     )

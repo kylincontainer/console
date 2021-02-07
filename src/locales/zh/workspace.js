@@ -56,7 +56,7 @@ export default {
   'Network module is not installed': '网络模块未安装',
 
   WORKSPACE_OVERVIEW_DESC:
-    '企业空间为 KubeSphere 提供了安全隔离的、具有访问权限控制的工作平台。这里您可以看到当前企业空间内资源运行的概况。',
+    '企业空间提供了安全隔离的、具有访问权限控制的工作平台。这里您可以看到当前企业空间内资源运行的概况。',
 
   WORKSPACE_DESC:
     '企业空间是一个组织您的项目和 DevOps 工程、管理资源访问权限以及在团队内部共享资源等的逻辑单元，可以作为团队工作的独立工作空间。',

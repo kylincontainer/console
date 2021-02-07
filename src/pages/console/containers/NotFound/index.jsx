@@ -52,7 +52,7 @@ export default class NotFound extends React.Component {
   render() {
     return (
       <div className={styles.wrapper}>
-        <img className={styles.image} src="/assets/empty-card.svg" alt="" />
+        {/* <img className={styles.image} src="/assets/empty-card.svg" alt="" /> */}
         <div className={styles.text}>
           <div className="h1">Not Found</div>
           <p>

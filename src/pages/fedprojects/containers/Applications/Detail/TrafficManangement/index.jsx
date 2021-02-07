@@ -147,7 +147,7 @@ class TrafficManangement extends React.Component {
           color={
             isServiceMeshEnabled
               ? {
-                  primary: '#00aa72',
+                  primary: '#3385b0',
                   secondary: '#90e0c5',
                 }
               : {

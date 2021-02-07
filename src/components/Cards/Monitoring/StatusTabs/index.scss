@@ -32,17 +32,17 @@
       background-color: $green;
     }
 
-    .img {
-      position: absolute;
-      top: 0;
-      right: -30px;
-      width: 80px;
-      height: 80px;
-      background-image: url('/assets/banner-icon-1.svg');
-      background-size: 80px auto;
-      background-repeat: no-repeat;
-      pointer-events: none;
-    }
+    // .img {
+    //   position: absolute;
+    //   top: 0;
+    //   right: -30px;
+    //   width: 80px;
+    //   height: 80px;
+    //   // background-image: url('/assets/banner-icon-1.svg');
+    //   background-size: 80px auto;
+    //   background-repeat: no-repeat;
+    //   pointer-events: none;
+    // }
 
     .inner {
       display: flex;

@@ -82,9 +82,9 @@ export default class DeployAppModal extends React.Component {
         hideFooter
       >
         <div className={styles.header}>
-          <div className={styles.logo}>
+          {/* <div className={styles.logo}>
             <img src="/assets/application.svg" alt="" />
-          </div>
+          </div> */}
           <div className={styles.text}>
             <h2>{t('Deploy New Application')}</h2>
             <p>{t('APP_DEPLOYMENT_DESC')}</p>

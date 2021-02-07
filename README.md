@@ -61,7 +61,7 @@ yarn lego
 yarn start
 ```
 
-Now, you can access http://localhost:8000 to view the console using the default account admin / P@88w0rd.
+Now, you can access http://localhost:8000 to view the console using the default account `admin` / `Kylin123.`  .
 
 ### Run tests
 

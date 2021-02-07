@@ -61,7 +61,7 @@ export default class BaseInfo extends React.Component {
             <p>{t('Creator')}</p>
           </div>
         </div>
-        <img className={styles.background} src="/assets/project-overview.svg" />
+        {/* <img className={styles.background} src="/assets/project-overview.svg" /> */}
       </div>
     )
   }

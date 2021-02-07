@@ -41,7 +41,6 @@ class GlobalNav extends React.Component {
 
   render() {
     const { visible, navs, onCancel } = this.props
-
     return (
       <Modal
         visible={visible}

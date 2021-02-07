@@ -62,7 +62,7 @@ export default class AppList extends React.PureComponent {
     if (apps.length === 0 && !isLoading) {
       return (
         <div className={styles.noApp}>
-          <img src="/assets/empty-card.svg" alt="" />
+          {/* <img src="/assets/empty-card.svg" alt="" /> */}
           <p>{t('RESOURCE_NOT_FOUND')}</p>
         </div>
       )

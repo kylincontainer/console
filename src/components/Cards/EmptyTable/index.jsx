@@ -56,7 +56,7 @@ export default class EmptyList extends React.Component {
       <div className={classnames(styles.wrapper, className)}>
         <Columns>
           <Column className="is-narrow">
-            <img src="/assets/empty-card.svg" alt="" />
+            {/* <img src="/assets/empty-card.svg" alt="" /> */}
           </Column>
           <Column>
             <p

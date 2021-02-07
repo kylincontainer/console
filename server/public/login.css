@@ -161,7 +161,7 @@ svg {
 }
 
 .login-form-item input:focus {
-  border-color: #55bc8a;
+  border-color: #167be0;
 }
 
 input::placeholder {
@@ -218,14 +218,15 @@ input::-webkit-input-placeholder {
   font-weight: 500;
   line-height: 20px;
   box-shadow: 0 8px 16px 0 rgba(36, 46, 66, 0.28);
-  border: solid 1px #242e42;
-  background-color: #242e42;
+  border: solid 1px #167be0;
+  background-color: #167be0;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .login-form button[type='submit']:hover {
   box-shadow: none;
+  background-color: #326e93;
 }
 
 .login-form button[type='submit']:focus {
@@ -269,7 +270,7 @@ input::-webkit-input-placeholder {
   top: -24px;
   font-size: 12px;
   line-height: 1.67;
-  color: #55bc8a;
+  color: #167be0;
   cursor: pointer;
 }
 

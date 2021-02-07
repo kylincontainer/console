@@ -262,7 +262,7 @@ export default class ResourceMonitorModal extends React.Component {
       <div className={styles.chart}>
         {isEmpty(config.data) ? (
           <div className={styles.empty}>
-            <img src="/assets/empty-card.svg" />
+            {/* <img src="/assets/empty-card.svg" /> */}
           </div>
         ) : (
           <SimpleArea width="100%" height="100%" {...config} />

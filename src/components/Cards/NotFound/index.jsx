@@ -25,7 +25,7 @@ export default class NotFound extends React.Component {
     const { title, link } = this.props
     return (
       <div className={styles.wrapper}>
-        <img className={styles.image} src="/assets/empty-card.svg" alt="" />
+        {/* <img className={styles.image} src="/assets/empty-card.svg" alt="" /> */}
         <div className={styles.text}>
           <div className="h1">Not Found</div>
           <p>{t.html('DETAIL_NOT_FOUND_DESC', { title, link })}</p>

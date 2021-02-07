@@ -4,10 +4,10 @@
         <rect width="260.8" height="182.5" x=".1" y="39.25" stroke="#CCD3DB" rx="2"/>
         <circle cx="130.5" cy="130.5" r="117.35" stroke="#CCD3DB"/>
         <rect width="234.7" height="234.7" x="13.15" y="13.15" stroke="#CCD3DB" rx="2"/>
-        <path stroke="#55BC8A" stroke-linecap="round" d="M261 0L0 260.994M0 0l261 260.994"/>
-        <circle cx="130.5" cy="130.5" r="65.25" stroke="#55BC8A" stroke-linecap="round"/>
-        <circle cx="130.5" cy="130.5" r="52.2" stroke="#55BC8A" stroke-linecap="round"/>
-        <circle cx="130.5" cy="130.5" r="39.15" stroke="#55BC8A" stroke-linecap="round"/>
-        <path stroke="#55BC8A" stroke-linecap="round" d="M130.5 0v261"/>
+        <path stroke="#167be0" stroke-linecap="round" d="M261 0L0 260.994M0 0l261 260.994"/>
+        <circle cx="130.5" cy="130.5" r="65.25" stroke="#167be0" stroke-linecap="round"/>
+        <circle cx="130.5" cy="130.5" r="52.2" stroke="#167be0" stroke-linecap="round"/>
+        <circle cx="130.5" cy="130.5" r="39.15" stroke="#167be0" stroke-linecap="round"/>
+        <path stroke="#167be0" stroke-linecap="round" d="M130.5 0v261"/>
     </g>
 </svg>

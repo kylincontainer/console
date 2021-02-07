@@ -189,7 +189,7 @@ export default class ProjectCreateModal extends React.Component {
         hideHeader
       >
         <div className={styles.header}>
-          <img src="/assets/project-create.svg" alt="" />
+          {/* <img src="/assets/project-create.svg" alt="" /> */}
           <div className={styles.title}>
             <div>{t('Create Project')}</div>
             <p>{t('PROJECT_CREATE_DESC')}</p>

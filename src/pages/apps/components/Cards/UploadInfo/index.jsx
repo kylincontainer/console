@@ -148,7 +148,7 @@ export default class UploadInfo extends Component {
 
     return (
       <div className={styles.statusIcon}>
-        <span className={styles.emoji}>📦</span>
+        {/* <span className={styles.emoji}>📦</span> */}
         <Icon size={16} name={status} className={styles.icon} />
       </div>
     )

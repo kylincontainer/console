@@ -162,7 +162,7 @@ export default class GitHubForm extends React.Component {
           )}
           <div className={styles.repoList}>
             <div className={styles.placeHolder}>
-              <img src="/assets/empty-card.svg" alt="" />
+              {/* <img src="/assets/empty-card.svg" alt="" /> */}
               <p className={styles.title}>
                 {t(`${this.scmType}_ACCESSTOKEN_PLACEHOLDER`)}
               </p>

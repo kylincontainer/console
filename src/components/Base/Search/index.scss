@@ -22,7 +22,7 @@
     }
 
     &::placeholder {
-      color: $second-text-color;
+      color: $dark !important;
     }
   }
 }

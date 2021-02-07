@@ -28,7 +28,7 @@ export default {
   'Service Details': '服务详情',
 
   SERVICE_COMPONENTS_DESC:
-    '服务组件提供 KubeSphere、Kubernetes 和 OpenPitrix 集群内各项服务组件的健康状态监控，可以查看当前集群的健康状态和运行时间，能够帮助用户监测集群的状况和及时定位问题。',
+    '服务组件提供 Kubernetes 集群内各项服务组件的健康状态监控，可以查看当前集群的健康状态和运行时间，能够帮助用户监测集群的状况和及时定位问题。',
 
   'KS-ACCOUNT_DESC': '提供用户、权限管理相关的 API',
   'KS-APIGATEWAY_DESC': '负责处理服务请求和处理 API 调用过程中的所有任务',

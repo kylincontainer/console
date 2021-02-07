@@ -21,7 +21,7 @@ import PropTypes from 'prop-types'
 import { debounce, isEmpty, isUndefined } from 'lodash'
 import isEqual from 'react-fast-compare'
 import classNames from 'classnames'
-import { Icon, Dropdown } from '@pitrix/lego-ui'
+// import { Icon, Dropdown } from '@pitrix/lego-ui'
 
 import styles from './index.scss'
 
@@ -111,29 +111,29 @@ export default class Select extends React.Component {
     )
   }
 
-  renderControl() {
-    const { value, defaultValue, placeholder, options, disabled } = this.props
+  // renderControl() {
+  //   const { value, defaultValue, placeholder, options, disabled } = this.props
 
-    const _value = value || defaultValue
+  //   const _value = value || defaultValue
 
-    const option =
-      options.find(item => isEqual(item.value, _value)) || placeholder || {}
+  //   const option =
+  //     options.find(item => isEqual(item.value, _value)) || placeholder || {}
 
-    return (
-      <div className={styles.control}>
-        <span className={styles.label}>{option.label}</span>
-        {!disabled && (
-          <Icon
-            className={classNames(styles.rightIcon, {
-              [styles.rightIcon_toggle]: this.state.showOptions,
-            })}
-            name="chevron-down"
-            size={20}
-          />
-        )}
-      </div>
-    )
-  }
+  //   return (
+  //     <div className={styles.control}>
+  //       <span className={styles.label}>{option.label}</span>
+  //       {!disabled && (
+  //         <Icon
+  //           className={classNames(styles.rightIcon, {
+  //             [styles.rightIcon_toggle]: this.state.showOptions,
+  //           })}
+  //           name="chevron-down"
+  //           size={20}
+  //         />
+  //       )}
+  //     </div>
+  //   )
+  // }
 
   render() {
     const { className, disabled } = this.props
@@ -145,7 +145,7 @@ export default class Select extends React.Component {
           className
         )}
       >
-        <Dropdown
+        {/* <Dropdown
           closeAfterClick={false}
           onClick={this.toggleShowOptions}
           visible={this.state.showOptions}
@@ -154,7 +154,7 @@ export default class Select extends React.Component {
           content={this.renderOptions()}
         >
           {this.renderControl()}
-        </Dropdown>
+        </Dropdown> */}
       </div>
     )
   }

@@ -142,7 +142,7 @@ class Clusters extends React.Component {
             {t('Cluster List')} <span className={styles.total}>{total}</span>
           </div>
           <div className={styles.noData}>
-            <img src="/assets/empty-card.svg" alt="" />
+            {/* <img src="/assets/empty-card.svg" alt="" /> */}
             <p>{t('RESOURCE_NOT_FOUND')}</p>
           </div>
         </>

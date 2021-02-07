@@ -93,15 +93,20 @@ export default class RoleStore extends Base {
       }
     )
 
-    const data = result.items.map(item => ({
-      cluster,
-      workspace,
-      ...this.mapper(item, devops ? 'devopsroles' : this.module),
-    }))
+    // const data = result.items.map(item => ({
+    //   cluster,
+    //   workspace,
+    //   ...this.mapper(item, devops ? 'devopsroles' : this.module),
+    // }))
+
+    const dataLi = (more
+      ? [...this.list.data, ...result.items]
+      : result.items
+    ).filter(item => item.cluster_role !== 'cluster-admin')
 
     this.list.update({
-      data: more ? [...this.list.data, ...data] : data,
-      total: result.totalItems || result.total_count || data.length || 0,
+      data: dataLi,
+      total: result.totalItems || result.total_count || dataLi.length || 0,
       ...params,
       limit: Number(params.limit) || 10,
       page: Number(params.page) || 1,

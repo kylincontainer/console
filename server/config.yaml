@@ -27,18 +27,20 @@ server:
 
   # backend service gateway server
   apiServer:
-    url: http://ks-apiserver.kubesphere-system.svc
-    wsUrl: ws://ks-apiserver.kubesphere-system.svc
+    # url: http://ks-apiserver.kubesphere-system.svc
+    # wsUrl: ws://ks-apiserver.kubesphere-system.svc
+    url: http://172.20.188.90:30881
+    wsUrl: ws://172.20.188.90:30881
 
   # docker image search default url
   dockerHubUrl: https://hub.docker.com
 
 client:
-  title: KubeSphere
+  title: KylinCloud
   description: ''
 
   version:
-    kubesphere: 3.0.0
+    KylinContainerCloud: 3.0.0
 
   # kubesphere urls
   issueUrl: https://github.com/kubesphere/kubesphere/issues/new/choose
@@ -76,11 +78,6 @@ client:
       authKey: app-templates
       authAction: manage
       ksModule: openpitrix
-    - name: settings
-      title: Platform Settings
-      icon: cogwheel
-      authKey: platform-settings
-      authAction: manage
 
   clusterNavs:
     - cate: cluster

@@ -113,6 +113,8 @@ export default class WorkspaceCreateModal extends React.Component {
     const step = this.steps[currentStep]
     const Component = step.component
 
+    // 设置默认保密级别为当前用户密级
+    formTemplate.metadata.annotations = { baomi: globals.user.baomi }
     const props = {
       store,
       formTemplate,
@@ -192,7 +194,6 @@ export default class WorkspaceCreateModal extends React.Component {
 
   render() {
     const { visible } = this.props
-
     return (
       <Modal
         className={styles.modal}

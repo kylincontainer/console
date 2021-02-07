@@ -83,7 +83,7 @@ export default class StatusCircle extends React.Component {
         })}
         onClick={this.handleClick}
       >
-        <img className={styles.cardImg} src="/assets/banner-icon-1.svg" />
+        {/* <img className={styles.cardImg} src="/assets/banner-icon-1.svg" /> */}
         <div className={styles.chart}>
           <SimpleCircle
             theme={theme}

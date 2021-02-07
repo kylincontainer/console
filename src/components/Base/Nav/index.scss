@@ -51,14 +51,19 @@
   text-align: center;
   border: 1px solid transparent;
   transition: all $trans-speed;
-
   &.active {
-    border-radius: 100px;
-    border-color: $border-color;
-    background-color: $bg-color;
-
-    &:hover {
-      color: $second-title-color;
-    }
+      border-radius: 100px;
+      border-color: $border-color;
+      color: $light !important;
+      background-color: $blue-color04;
+      &:hover {
+          color: $light !important;
+      }
   }
+  &:hover {
+      color: $light !important;
+      background-color: $blue-color04;
+      border-radius: 100px;
+  }
+
 }

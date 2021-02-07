@@ -44,6 +44,7 @@ export default class LoginInfo extends Component {
     this.state = {
       showAbout: false,
     }
+    this.role = globals.user.cluster_role
   }
 
   handleMoreClick = (e, key) => {
@@ -129,6 +130,7 @@ export default class LoginInfo extends Component {
             <Icon name="human" />
             {globals.user.username}
             <Icon name="caret-down" type={isAppsPage ? 'white' : 'dark'} />
+            {t(this.role) !== this.role && <div>{t(this.role)}</div>}
           </div>
         </Dropdown>
         {this.renderModals()}

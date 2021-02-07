@@ -142,7 +142,7 @@ input.input {
 
   &:not([readonly]):not([disabled]):focus {
     border-color: $input-focus-color;
-    box-shadow: 0 4px 8px 0 rgba(85, 188, 138, 0.2);
+    box-shadow: 0 4px 8px 0 #7eb8dc;
   }
 }
 
@@ -172,7 +172,7 @@ input.input {
 
   &:not([readonly]):not([disabled]):focus {
     border-color: $input-focus-color;
-    box-shadow: 0 4px 8px 0 rgba(85, 188, 138, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(126, 184, 220);
   }
 }
 
@@ -389,7 +389,7 @@ label.checkbox {
     &-icon {
       .qicon-dark {
         color: #fff;
-        fill: #fff;
+        fill: $blue-color04;
       }
     }
   }

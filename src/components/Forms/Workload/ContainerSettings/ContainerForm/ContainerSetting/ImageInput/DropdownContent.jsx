@@ -283,14 +283,14 @@ export default class DropdownContent extends React.Component {
             disabled={this.secretsOptions.length <= 1}
           />
         </Input>
-        {this.secretValue || !globals.config.enableImageSearch ? null : (
+        {/* {this.secretValue || !globals.config.enableImageSearch ? null : (
           <Icon
             name="templet"
             changeable
             className={styles.dropDownIcon}
             onClick={this.showContent}
           />
-        )}
+        )} */}
         {this.renderContent()}
       </>
     )

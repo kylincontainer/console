@@ -20,12 +20,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import { Link } from 'react-router-dom'
-import { Icon, Menu, Dropdown } from '@pitrix/lego-ui'
 import { isAppsPage } from 'utils'
 
 import { Button } from 'components/Base'
 import LoginInfo from '../LoginInfo'
-
 import styles from './index.scss'
 
 class Header extends React.Component {
@@ -47,18 +45,18 @@ class Header extends React.Component {
     window.open(key)
   }
 
-  renderDocumentList() {
-    return (
-      <Menu onClick={this.handleDocumentLinkClick} data-test="header-docs">
-        <Menu.MenuItem key={globals.config.documents.url}>
-          <Icon name="hammer" /> {t('User Manual')}
-        </Menu.MenuItem>
-        <Menu.MenuItem key={globals.config.documents.api}>
-          <Icon name="api" /> {t('API Documents')}
-        </Menu.MenuItem>
-      </Menu>
-    )
-  }
+  // renderDocumentList() {
+  //   return (
+  //     <Menu onClick={this.handleDocumentLinkClick} data-test="header-docs">
+  //       {/* <Menu.MenuItem key={globals.config.documents.url}>
+  //         <Icon name="hammer" /> {t('User Manual')}
+  //       </Menu.MenuItem>
+  //       <Menu.MenuItem key={globals.config.documents.api}>
+  //         <Icon name="api" /> {t('API Documents')}
+  //       </Menu.MenuItem> */}
+  //     </Menu>
+  //   )
+  // }
 
   render() {
     const { className, innerRef, location } = this.props
@@ -78,7 +76,7 @@ class Header extends React.Component {
         <Link to={isAppsPage() && !globals.user ? '/apps' : '/'}>
           <img
             className={styles.logo}
-            src={isAppsPage() ? `/assets/login-logo.svg` : logo}
+            src={isAppsPage() ? `/assets/logo.svg` : logo}
             alt=""
           />
         </Link>
@@ -94,6 +92,7 @@ class Header extends React.Component {
                 {t('Platform')}
               </Button>
             )}
+
             {globals.app.enableAppStore && (
               <Button
                 type="flat"
@@ -119,11 +118,11 @@ class Header extends React.Component {
           </div>
         )}
         <div className={styles.right}>
-          {this.isLoggedIn && (
+          {/* {this.isLoggedIn && (
             <Dropdown content={this.renderDocumentList()}>
               <Button type="flat" icon="documentation" />
             </Dropdown>
-          )}
+          )} */}
           <LoginInfo className={styles.loginInfo} isAppsPage={isAppsPage()} />
         </div>
       </div>

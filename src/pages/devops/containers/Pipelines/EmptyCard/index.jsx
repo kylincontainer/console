@@ -35,9 +35,7 @@ export default class EmptyCard extends React.Component {
 
     return (
       <div className={classnames(styles.wrapper, className)}>
-        <div>
-          <img src="/assets/empty-card.svg" alt="" />
-        </div>
+        <div>{/* <img src="/assets/empty-card.svg" alt="" /> */}</div>
         <div>
           <p
             className={styles.desc}

@@ -37,7 +37,7 @@
     background-color: $th-bg-color;
 
     :global .level-left {
-      @include TypographyParagraph($dark-color01);
+      @include TypographyParagraph($dark);
     }
   }
 }

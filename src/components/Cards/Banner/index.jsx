@@ -25,7 +25,7 @@ import classnames from 'classnames'
 import { getDocsUrl } from 'utils'
 import { ICON_TYPES } from 'utils/constants'
 
-import Tip from './Tip'
+// import Tip from './Tip'
 import Navs from './Navs'
 import Tabs from './Tabs'
 
@@ -77,10 +77,10 @@ export default class Banner extends React.Component {
     }
   }
 
-  renderTips(tips) {
+  renderTips() {
     return (
       <div className={styles.tips}>
-        {tips
+        {/* {tips
           .filter(tip => !this.hiddenTips.includes(tip.title))
           .map((tip, index) => (
             <Tip
@@ -90,7 +90,7 @@ export default class Banner extends React.Component {
               onToggle={this.handleToggle}
               open={tip.title === this.state.openTip}
             />
-          ))}
+          ))} */}
       </div>
     )
   }
@@ -121,10 +121,10 @@ export default class Banner extends React.Component {
               {description}
               {docUrl && (
                 <span className={styles.more}>
-                  <Icon name="documentation" size={20} />
+                  {/* <Icon name="documentation" size={20} />
                   <a href={docUrl} target="_blank">
                     {t('Learn more')}
-                  </a>
+                  </a> */}
                 </span>
               )}
             </p>

@@ -40,7 +40,7 @@ const railStyle = {
 const trackStyle = {
   height: 10,
   borderRadius: 5,
-  backgroundColor: '#55bc8a',
+  backgroundColor: '#167be0',
   boxShadow: '0 8px 16px 0 rgba(85, 188, 138, 0.36)',
 }
 

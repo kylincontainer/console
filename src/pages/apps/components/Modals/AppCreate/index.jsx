@@ -22,7 +22,7 @@ import classnames from 'classnames'
 
 import { Modal, Button } from 'components/Base'
 import ToggleView from 'apps/components/ToggleView'
-import { getDocsUrl } from 'utils'
+// import { getDocsUrl } from 'utils'
 
 import styles from './index.scss'
 
@@ -52,7 +52,7 @@ export default class AppCreate extends Component {
         {...rest}
       >
         <div className={classnames(styles.header, 'clearfix')}>
-          <img src="/assets/application.svg" alt="" />
+          {/* <img src="/assets/application.svg" alt="" /> */}
           <div className={styles.title}> {t('Create App Template')}</div>
           <div className={styles.description}>{t('CREATE_APP_DESC')}</div>
         </div>
@@ -64,12 +64,12 @@ export default class AppCreate extends Component {
             <Button type={'control'} onClick={this.props.onOk}>
               {t('START_UPLOAD')}
             </Button>
-            <div className={styles.note}>
+            {/* <div className={styles.note}>
               💁‍♂️ {t('APP_CREATE_GUIDE')}
               <a href={getDocsUrl('helm_specification')} target="_blank">
                 《{t('HELM_DEVELOP_GUIDE')}》
               </a>
-            </div>
+            </div> */}
           </div>
         </ToggleView>
       </Modal>

@@ -113,12 +113,12 @@ pre {
 }
 
 ::-moz-selection {
-  background: #369a6a;
+  background: $blue-color04;
   color: #fff;
 }
 
 ::selection {
-  background: #369a6a;
+  background: $blue-color04;
   color: #fff;
 }
 
@@ -166,8 +166,8 @@ pre {
 
   &:hover {
     svg {
-      color: #00aa72;
-      fill: #90e0c5;
+      color: #3385b0;
+      fill: #7eb8dc;
     }
   }
 }
@@ -262,5 +262,15 @@ pre {
     color: #fff;
     white-space: nowrap;
     z-index: 100;
+  }
+}
+
+// 覆盖legoui 表格中 a标签hover样式
+.table table /deep/ .table-tbody>tr {
+  &.table-row-hover>td a,
+  &.table-row-hover>td button.is-text,
+  &:hover>td a,
+  &:hover>td button.is-text {
+    color: $primary;
   }
 }

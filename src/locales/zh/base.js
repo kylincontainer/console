@@ -201,6 +201,7 @@ export default {
   Fold: '折叠',
   Unfold: '展开',
 
+  'Secure rank': '保密级别',
   'Basic Info': '基本信息',
   'Pod Template': '容器组模板',
   'Volume Settings': '存储卷设置',
@@ -261,10 +262,10 @@ export default {
   MINUTE_AGO: '{count} 分钟前',
   MINUTE_TIME: '{count} 分钟',
 
+  SECURE_RANK_DESC: '选择特定的保密级别',
   NAME_DESC:
     '最长 63 个字符，只能包含小写字母、数字及分隔符("-")，且必须以小写字母或数字开头及结尾',
   NAME_TOO_LONG: '最长 63 个字符',
-
   LONG_NAME_DESC:
     '最长 253 个字符，只能包含小写字母、数字及分隔符("-")，且必须以小写字母或数字开头及结尾',
   LONG_NAME_TOO_LONG: '最长 253 个字符',
@@ -493,7 +494,7 @@ export default {
   'Learn more': '了解更多',
 
   KS_DESCRIPTION:
-    'KubeSphere 是一款开源项目，在目前主流容器调度平台 Kubernetes 之上构建的企业级分布式多租户容器管理平台，提供简单易用的操作界面以及向导式操作方式，在降低用户使用容器调度平台学习成本的同时，极大降低开发、测试、运维的日常工作的复杂度。',
+    '银河麒麟容器云，为用户提供高性能可伸缩的应用管理服务，基于docker和kubernetes之上构建的以应用为中心的多租户容器平台，提供全栈的IT自动化运维能力。平台简化了容器管理集群的搭建工作，整合了银河麒麟容器、存储、网络和安全能力，为企业提供最佳的容器管理解决方案，满足企业不同类型的业务需求，可帮助用户更低成本地管理并扩展应用，降低IT成本。',
 
   REPS_ADDRESS: '项目地址',
   ISSUE_FEEDBACK: '问题反馈',

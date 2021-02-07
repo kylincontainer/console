@@ -24,7 +24,7 @@ import { Icon } from '@pitrix/lego-ui'
 import { Modal, Notify } from 'components/Base'
 import UploadInfo from 'apps/components/Cards/UploadInfo'
 import CreateInfo from 'apps/components/Cards/CreateInfo'
-import { OPENPITRIX_LINKS } from 'configs/openpitrix/app'
+// import { OPENPITRIX_LINKS } from 'configs/openpitrix/app'
 import FileStore from 'stores/openpitrix/file'
 
 import typeFiles from './files'
@@ -162,12 +162,12 @@ export default class HelmUpload extends Component {
             <div className={styles.configMask} />
           )}
         </div>
-        <div className={styles.note}>
+        {/* <div className={styles.note}>
           💁‍♂️ {t('APP_CREATE_GUIDE')}
           <a href={OPENPITRIX_LINKS.helm_developer_guide} target="_blank">
             《{t('HELM_DEVELOP_GUIDE')}》
           </a>
-        </div>
+        </div> */}
       </div>
     )
   }

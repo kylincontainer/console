@@ -363,6 +363,12 @@ export const getAliasName = item =>
   get(item, 'metadata.annotations.displayName') ||
   ''
 
+export const getSecureRank = item =>
+  get(
+    item,
+    'metadata.annotations["scheduler.alpha.kubernetes.io/node-selector"]'
+  ) || ''
+
 export const getDisplayName = item => {
   if (isEmpty(item)) {
     return ''
