@@ -1,0 +1,13 @@
+--- src/components/Modals/ProjectCreate/index.scss
++++ src/components/Modals/ProjectCreate/index.scss
+@@ -14,8 +14,8 @@
+   top: 0;
+   left: 0;
+   right: 0;
+-  height: 180px;
+-  padding: 50px 24px 50px 314px;
++  height: 160px;
++  padding: 50px 50px 24px 50px;
+   background-color: $bg-color;
+ 
+   img {

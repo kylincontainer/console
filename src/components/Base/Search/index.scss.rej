@@ -1,0 +1,11 @@
+--- src/components/Base/Search/index.scss
++++ src/components/Base/Search/index.scss
+@@ -22,7 +22,7 @@
+     }
+ 
+     &::placeholder {
+-      color: $second-text-color;
++      color: $dark !important;
+     }
+   }
+ }

@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -149,8 +149,8 @@ export default {
   'Job Records': 'Registro de tareas',
   'Job Settings': 'Configuraciones de tareas',
   'Job Template': 'Plantilla de tareas',
-  'KubeSphere supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
-    'KubeSphere admite la extracción de imágenes de los Registros de imágenes y la creación de nuevas imágenes a través del código fuente (Fuente a imagen).',
+  'KylinContainerCloud supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
+    'KylinContainerCloud admite la extracción de imágenes de los Registros de imágenes y la creación de nuevas imágenes a través del código fuente (Fuente a imagen).',
   'Labels cannot be empty': 'Las etiquetas no pueden estar vacías',
   'Labels exists': 'Existen etiquetas',
   layers: 'capas',
@@ -369,7 +369,7 @@ export default {
   WORKLOAD_DESC:
     'La carga de trabajo suele ser el operador real para acceder al servicio, y también es el operador real en ejecución para aplicaciones del sistema, como la recopilación y supervisión de registros de nodos. Workload es un modelo abstracto para un grupo de Pods.',
   DEPLOYMENT_DESC:
-    'La implementación proporciona una gestión detallada de aplicaciones comunes en KubeSphere. La configuración de implementación describe el estado deseado de componentes específicos de una aplicación como plantillas Pod.',
+    'La implementación proporciona una gestión detallada de aplicaciones comunes en KylinContainerCloud. La configuración de implementación describe el estado deseado de componentes específicos de una aplicación como plantillas Pod.',
   DEPLOYMENT_CREATE_DESC:
     'Un controlador de implementación proporciona actualizaciones declarativas para Pods y ReplicaSets, se usa para reemplazar ReplicationController para facilitar la administración de aplicaciones. Por lo general, el uso de la implementación para crear pods y ReplicateSet, la actualización progresiva y la reversión de aplicaciones, el escalado horizontal o en las aplicaciones, la detención o reanudación de las aplicaciones.',
   STATEFULSET_DESC:

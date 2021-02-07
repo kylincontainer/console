@@ -1,0 +1,11 @@
+--- src/pages/projects/components/Cards/S2iBuilder/index.scss
++++ src/pages/projects/components/Cards/S2iBuilder/index.scss
+@@ -77,7 +77,7 @@
+ 
+ .successful {
+   background-image: url('/assets/cicd-success.svg');
+-  background-color: $green;
++  background-color: $blue-color04;
+ }
+ 
+ @keyframes rotate {

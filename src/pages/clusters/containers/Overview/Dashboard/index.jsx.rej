@@ -1,0 +1,18 @@
+--- src/pages/clusters/containers/Overview/Dashboard/index.jsx
++++ src/pages/clusters/containers/Overview/Dashboard/index.jsx
+@@ -34,6 +34,15 @@ import ServiceComponents from './ServiceComponents'
+ export default class Dashboard extends React.Component {
+   componentDidMount() {
+     this.cluster.fetchVersion(this.props.match.params)
++    if (globals.user.cluster_role === 'audit-admin') {
++      setTimeout(() => {
++        const e = document.createEvent('MouseEvents')
++        e.initEvent('mouseover', true, true)
++        document.getElementsByName('kubeToolsOpenBt')[0].dispatchEvent(e)
++        e.initEvent('mousedown', true, false)
++        document.getElementsByName('kubeToolsInnerBt')[0].dispatchEvent(e)
++      }, 2000)
++    }
+   }
+ 
+   get cluster() {

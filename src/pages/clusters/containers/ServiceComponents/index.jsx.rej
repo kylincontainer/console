@@ -1,0 +1,11 @@
+--- src/pages/clusters/containers/ServiceComponents/index.jsx
++++ src/pages/clusters/containers/ServiceComponents/index.jsx
+@@ -54,7 +54,7 @@ export default class ServiceComponents extends React.Component {
+     return this.props.match.params.cluster
+   }
+ 
+-  getColor = healthy => (healthy ? '#f5a623' : '#55bc8a')
++  getColor = healthy => (healthy ? '#f5a623' : '#167be0')
+ 
+   getCount = type => {
+     const exceptionCount = this.store.exceptionCount

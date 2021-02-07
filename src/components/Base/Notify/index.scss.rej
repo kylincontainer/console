@@ -1,0 +1,25 @@
+--- src/components/Base/Notify/index.scss
++++ src/components/Base/Notify/index.scss
+@@ -55,18 +55,18 @@
+         }
+ 
+         &-success {
+-          border-color: #55bc8a;
++          border-color: #167be0;
+ 
+           .kube-notify-icon {
+-            background-color: #55bc8a;
++            background-color: #167be0;
+           }
+ 
+           .kube-notify-title {
+-            color: #55bc8a;
++            color: #167be0;
+           }
+ 
+           .kube-notice-close {
+-            color: #55bc8a;
++            color: #167be0;
+           }
+         }
+ 

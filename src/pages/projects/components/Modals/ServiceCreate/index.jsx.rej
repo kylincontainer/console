@@ -1,0 +1,11 @@
+--- src/pages/projects/components/Modals/ServiceCreate/index.jsx
++++ src/pages/projects/components/Modals/ServiceCreate/index.jsx
+@@ -155,7 +155,7 @@ export default class ServiceCreateModal extends React.Component {
+       <div className={styles.header}>
+         <div className="h4 margin-b12">{t('Create Service')}</div>
+         <p>{t.html('SERVICE_CREATE_DESC')}</p>
+-        <img src="/assets/create-service.svg" alt="" />
++        {/* <img src="/assets/create-service.svg" alt="" /> */}
+       </div>
+     )
+   }

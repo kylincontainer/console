@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -87,7 +87,7 @@ export default {
   SERVICE_DESC:
     '服務 (Service) 是定義了一類容器組的邏輯集合和一個用於訪問它们的策略。',
   SERVICE_CREATE_DESC:
-    '服務是定義了一類 Pod 的邏輯集合和一個用於訪問它们的策略。您可選擇服務的類型或者創建服務的方式。<br/>KubeSphere 支持無狀態服務和有狀態服務，並支持通過代碼或者成品構建服務。',
+    '服務是定義了一類 Pod 的邏輯集合和一個用於訪問它们的策略。您可選擇服務的類型或者創建服務的方式。<br/>麒麟容器云支持無狀態服務和有狀態服務，並支持通過代碼或者成品構建服務。',
 
   SERVICES_BASEINFO_DESC:
     '創建服務需要提供服務的名稱和描述，服務名稱不能和同一項目下已有的服務名稱相同。',

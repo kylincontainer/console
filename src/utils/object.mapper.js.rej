@@ -1,0 +1,18 @@
+--- src/utils/object.mapper.js
++++ src/utils/object.mapper.js
+@@ -38,6 +38,7 @@ import {
+   generateId,
+   getDescription,
+   getAliasName,
++  getSecureRank,
+   getResourceCreator,
+   replaceToLocalOrigin,
+ } from 'utils'
+@@ -67,6 +68,7 @@ const getBaseInfo = item => ({
+   creator: getResourceCreator(item),
+   description: getDescription(item),
+   aliasName: getAliasName(item),
++  secureRank: getSecureRank(item),
+   createTime: get(item, 'metadata.creationTimestamp'),
+   resourceVersion: get(item, 'metadata.resourceVersion'),
+   isFedManaged: get(item, 'metadata.labels["kubefed.io/managed"]') === 'true',

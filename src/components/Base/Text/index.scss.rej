@@ -1,0 +1,22 @@
+--- src/components/Base/Text/index.scss
++++ src/components/Base/Text/index.scss
+@@ -12,7 +12,7 @@
+   }
+ 
+   & > p {
+-    @include TypographyParagraph($dark-color01);
++    @include TypographyParagraph($dark);
+   }
+ }
+ 
+@@ -49,8 +49,8 @@
+     }
+     .icon {
+       :global .qicon {
+-        color: #00aa72;
+-        fill: #90e0c5;
++        color: #3385b0;
++        fill: #7eb8dc;
+       }
+     }
+   }

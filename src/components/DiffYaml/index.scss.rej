@@ -1,0 +1,21 @@
+--- src/components/DiffYaml/index.scss
++++ src/components/DiffYaml/index.scss
+@@ -36,15 +36,15 @@
+     background-color: rgba($red-color01, .7);
+   }
+   .d2h-file-diff .d2h-ins.d2h-change {
+-    background-color: rgba($green-color01, .7);
++    background-color: rgba($blue-color01, .7);
+   }
+   .d2h-ins {
+-    background-color: rgba($green-color02, .7);
++    background-color: rgba($blue-color02, .7);
+   }
+   .d2h-code-line del, .d2h-code-side-line del {
+     background-color: rgba($red-color02, .7);
+   }
+   .d2h-code-line ins, .d2h-code-side-line ins {
+-    background-color: rgba($green-color03, .7);
++    background-color: rgba($blue-color03, .7);
+   }
+ }

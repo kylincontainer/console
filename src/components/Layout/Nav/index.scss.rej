@@ -1,0 +1,67 @@
+--- src/components/Layout/Nav/index.scss
++++ src/components/Layout/Nav/index.scss
+@@ -18,7 +18,7 @@
+       .title {
+         display: block;
+         padding: 7px 12px;
+-        color: #4a5974;
++        color: $dark;
+         font-weight: 500;
+         cursor: pointer;
+ 
+@@ -47,21 +47,40 @@
+         }
+       }
+ 
+-      &.select,
++      &.select {
++        background-color: $blue-color04;
++        &>a {
++            color: $light;
++        }
++      }
++
+       &.childSelect,
+-      &:hover,
++      &:hover {
++        background-color: $blue-color03;
++        &>a,
++        .title {
++            color: $light;
++        }
++        .innerNav>li {
++            height: 20px;
++            margin-top: 8px;
++            opacity: 1;
++            transition: height $trans-speed ease-in-out, margin-top $trans-speed ease-in-out, opacity $trans-speed ease-in-out 0.1s;
++        }
++      }
++
+       &:active {
+         & > a {
+           color: $primary;
+ 
+           :global .qicon {
+-            color: #00aa72;
+-            fill: #90e0c5;
++            color: #3385b0;
++            fill: #7eb8dc;
+           }
+ 
+           .devopsIcon {
+-            color: #00aa72;
+-            fill: #90e0c5;
++            color: #3385b0;
++            fill: #7eb8dc;
+           }
+         }
+ 
+@@ -142,7 +161,7 @@
+     &:hover,
+     &:active {
+       & > a {
+-        color: $primary;
++        color: $light;
+       }
+     }
+ 

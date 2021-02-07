@@ -1,0 +1,11 @@
+--- src/components/Charts/Area/MediumArea/index.jsx
++++ src/components/Charts/Area/MediumArea/index.jsx
+@@ -27,7 +27,7 @@ import CustomTooltip from 'components/Charts/Custom/Tooltip'
+ 
+ import styles from './index.scss'
+ 
+-const AreaColors = ['green', 'blue', 'yellow', 'red']
++const AreaColors = ['blue', 'green', 'yellow', 'red']
+ 
+ export default class MediumArea extends React.Component {
+   static propTypes = {

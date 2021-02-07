@@ -115,7 +115,7 @@ export default class ContainerList extends React.Component {
         icon="docker"
         title={`${t('Add ')}${t('Container Image')}`}
         description={t(
-          'KubeSphere supports pulling images from the Image Registries and creating new images through source code (Source to Image).'
+          'KylinContainerCloud supports pulling images from the Image Registries and creating new images through source code (Source to Image).'
         )}
       />
     )

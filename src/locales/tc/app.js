@@ -1,36 +1,36 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
   APP_TEMPLATE_DESC:
-    'KubeSphere 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，并且快速部署它們，也可以通過應用商店進行發佈應用。',
+    '麒麟容器云 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，并且快速部署它們，也可以通過應用商店進行發佈應用。',
   APP_TEMPLATE_CREATE_DESC:
-    'KubeSphere 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，并且快速部署它們，也可以通過應用商店進行發佈應用。',
+    '麒麟容器云 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，并且快速部署它們，也可以通過應用商店進行發佈應用。',
   DEVELOP_APP_TITLE: '開發應用模板',
   DEVELOP_APP_DESC:
-    '您可以上傳 Helm Chart 或者使用 KubeSphere 提供的資源編排工具進行應用模板的開發',
+    '您可以上傳 Helm Chart 或者使用 麒麟容器云 提供的資源編排工具進行應用模板的開發',
   HOW_PUBLISH_APP_TITLE: '如何發佈已有應用',
   HOW_PUBLISH_APP_DESC:
-    'KubeSphere 目前支持將已有應用的 Helm Chart 上傳至企業空間的應用模板，提交審核後，可以將應用發佈在應用商店中。',
+    '麒麟容器云 目前支持將已有應用的 Helm Chart 上傳至企業空間的應用模板，提交審核後，可以將應用發佈在應用商店中。',
   HOW_APP_DEPLOY_TITLE: '如何部署和測試應用',
   'Upload Template': '上傳模板',
   APPS_CREATE_DESC:
-    'KubeSphere 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，並且快速部署它們，也可以通過應用商店進行發佈應用。',
+    '麒麟容器云 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，並且快速部署它們，也可以通過應用商店進行發佈應用。',
 
   'Apps Management': '應用管理',
   'App Store Management': '應用商店管理',
@@ -111,7 +111,7 @@ export default {
   'Adjust Successfully': '調整成功',
 
   APP_TEMPLATES_DESC:
-    'KubeSphere 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，並且快速部署它們，也可以通過應用商店進行發佈應用。',
+    '麒麟容器云 提供全生命週期的應用管理，可以上傳或者創建新的應用模板，並且快速部署它們，也可以通過應用商店進行發佈應用。',
   UPLOAD_HELM_TITLE: '上傳 Helm 配置文件',
   UPLOAD_HELM_DESC: '上傳已有的 Helm  Chart ',
   'Edit App Informatio': '編輯應用資訊',
@@ -142,7 +142,7 @@ export default {
     '輕量化、可移植、自包含的軟體封裝技術，使應用可以在幾乎任何地方以相同的方式運行。',
   RESOURCE_TOOL_TITLE: '通過資源編排工具創建',
   RESOURCE_TOOL_DESCRIPTION:
-    'KubeSphere 提供了視覺化的資源編排工具，您可以通過資源預編輯來創建應用模板，部署測試',
+    '麒麟容器云 提供了視覺化的資源編排工具，您可以通過資源預編輯來創建應用模板，部署測試',
   UPLOAD_HELM_DESCRIPTION: '上傳已有的 Helm Chart. 文件格式支持 tar.gz 和 tgz',
   START_UPLOAD: '開始上傳',
   'Start Create': '開始創建',

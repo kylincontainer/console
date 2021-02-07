@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -145,24 +145,24 @@ export default {
   FILE_UPLOAD_MAX: 'The file size cannot exceed 2M.',
 
   APP_TEMPLATE_DESC:
-    'KubeSphere provides full lifecycle management for applications. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to App Store so that other users can deploy with one click.',
+    'KylinContainerCloud provides full lifecycle management for applications. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to App Store so that other users can deploy with one click.',
   APP_TEMPLATE_CREATE_DESC:
-    'KubeSphere provides full lifecycle management for applications. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to App Store so that other users can deploy with one click.',
+    'KylinContainerCloud provides full lifecycle management for applications. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to App Store so that other users can deploy with one click.',
   APP_TEMPLATES_DESC:
-    'KubeSphere provides full lifecycle management for applications. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to App Store so that other users can deploy with one click.',
+    'KylinContainerCloud provides full lifecycle management for applications. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to App Store so that other users can deploy with one click.',
 
   DEVELOP_APP_TITLE: 'How to develop app templates?',
   DEVELOP_APP_DESC:
-    'You can upload Helm Chart or use the resource orchestration tool provided by KubeSphere to develop app templates.',
+    'You can upload Helm Chart or use the resource orchestration tool provided by KylinContainerCloud to develop app templates.',
 
   HOW_PUBLISH_APP_TITLE: 'How to publish applications to App Store?',
   HOW_PUBLISH_APP_DESC:
-    'KubeSphere currently supports uploading Helm Charts through app templates within the workspace, where you can submit your template for review. Once the template is approved, you can publish it to App Store.',
+    'KylinContainerCloud currently supports uploading Helm Charts through app templates within the workspace, where you can submit your template for review. Once the template is approved, you can publish it to App Store.',
 
   HOW_APP_DEPLOY_TITLE: 'How to deploy and test applications',
 
   APPS_CREATE_DESC:
-    'KubeSphere provides lifecycle management of app templates. You can upload or create new app templates and test them quickly. In addition, you can publish your app templates to App Store so that other users can purchase and deploy them.',
+    'KylinContainerCloud provides lifecycle management of app templates. You can upload or create new app templates and test them quickly. In addition, you can publish your app templates to App Store so that other users can purchase and deploy them.',
 
   APP_NAME_DESC: 'Important Identification of Applications',
 
@@ -206,7 +206,7 @@ export default {
 
   RESOURCE_TOOL_TITLE: 'Created through Resource Choreographer',
   RESOURCE_TOOL_DESCRIPTION:
-    'KubeSphere provides a visual resource orchestration tool that allows you to' +
+    'KylinContainerCloud provides a visual resource orchestration tool that allows you to' +
     ' create application templates and deploy tests through resource pre-editing',
 
   APP_CREATE_GUIDE: 'See the application development specification',

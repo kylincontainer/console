@@ -1,0 +1,11 @@
+--- src/components/Base/Avatar/index.scss
++++ src/components/Base/Avatar/index.scss
+@@ -39,7 +39,7 @@
+ 
+   .description {
+     @include ellipsis;
+-    @include TypographyParagraph($dark-color01);
++    @include TypographyParagraph($dark);
+     max-width: 300px;
+   }
+ }

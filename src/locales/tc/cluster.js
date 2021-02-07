@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -94,8 +94,8 @@ export default {
 
   'Please select or input a tag': '請選擇或輸入標籤',
   'Please select or input a provider': '請選擇或輸入服務商',
-  'Please input the kubesphere api server address of the cluster':
-    '請輸入待加入集群的 Kubesphere API Server 地址',
+  'Please input the KylinContainerCloud api server address of the cluster':
+    '請輸入待加入集群的 KylinContainerCloud API Server 地址',
 
   'All Projects': '全部項目',
 
@@ -103,10 +103,10 @@ export default {
 
   NO_CLUSTER_TIP: '請添加至少 1 個集群',
   NO_CLUSTER_TIP_DESC:
-    '集群是一組運行著 Kubernetes 的節點（物理或者虛擬機）, Kubesphere 的功能也依靠於集群中的節點來運行',
+    '集群是一組運行著 Kubernetes 的節點（物理或者虛擬機）, KylinContainerCloud 的功能也依靠於集群中的節點來運行',
   ADD_NEW_CLUSTER_DESC: '添加新的Kubernetes集群',
   CHOOSE_PROVIDER_DESC:
-    'KubeSphere提供了在主流服務商中快速部署Kubernetes集群的方案',
+    'KylinContainerCloud提供了在主流服務商中快速部署Kubernetes集群的方案',
 
   VISIBILITY_PART: '部分可見',
   VISIBILITY_PUBLIC: '公開',
@@ -140,7 +140,7 @@ export default {
   CLUSTER_BASE_INFO_DESC: '目前集群基礎資訊總覽',
 
   UNBIND_CLUSTER_DESC:
-    '解綁集群後，KubeSphere將無法再對該集群進行管理。 解綁後，該集群内的Kubernetes資源不會被刪除。',
+    '解綁集群後，KylinContainerCloud將無法再對該集群進行管理。 解綁後，該集群内的Kubernetes資源不會被刪除。',
   SURE_TO_UNBIND_CLUSTER: '我確定要執行解綁集群的操作',
 
   'Invite members to the cluster': '邀請成員到該集群',
@@ -164,15 +164,16 @@ export default {
 
   SELECT_CLUSTERS_DESC: '選擇企業空間下可用的集群',
 
-  CLUSTER_API_SERVER_TITLE: '待加入集群的 Kubesphere API Server',
-  CLUSTER_API_SERVER_DESC: '需要添加待加入集群的 KubeSphere API Server 地址',
+  CLUSTER_API_SERVER_TITLE: '待加入集群的 KylinContainerCloud API Server',
+  CLUSTER_API_SERVER_DESC:
+    '需要添加待加入集群的 KylinContainerCloud API Server 地址',
 
   INPUT_KUBECONFIG: '請填寫目標集群的 KubeConfig',
 
   CLUSTER_DIRECT_IMPORT_TIP:
-    'KubeSphere 多集群控制平面通過提供的 kubeconfig 來直接連接導入集群，此種方式要求目前集群能夠通過 kubeconfig 中的 server 地址直接訪問待導入集群. </br>通常適用於:</br>1. 目前集群和待導入集群在同一内網網路中</br>2. 目前集群和待導入集群已通過vpn或穿隧協定等其它技術連通所在網路</br>3. kubeconfig 的 server 地址可以通過公網訪問',
+    'KylinContainerCloud 多集群控制平面通過提供的 kubeconfig 來直接連接導入集群，此種方式要求目前集群能夠通過 kubeconfig 中的 server 地址直接訪問待導入集群. </br>通常適用於:</br>1. 目前集群和待導入集群在同一内網網路中</br>2. 目前集群和待導入集群已通過vpn或穿隧協定等其它技術連通所在網路</br>3. kubeconfig 的 server 地址可以通過公網訪問',
   CLUSTER_AGENT_IMPORT_TIP:
-    'KubeSphere 控制平面通過代理方式連接待導入集群，控制平面啟動一個公開的代理服務，待導入集群創建相應的客戶端組件連接代理服務，與控制平面之間建立一个反向代理。此種方式不需要待導入集群和控制平面在同一網路，也不要求待導入集群暴露集群的 apiserver 地址，但會有一定的網路性能損耗</br></br>通常適用於:</br>1. 目前集群和待導入集群不在同一網路中<br/>2. 目前集群和待導入集群無法通過vpn或穿隧協定等其它技術連通所在網路<br/>3. 對集群間網路性能損耗能容忍',
+    'KylinContainerCloud 控制平面通過代理方式連接待導入集群，控制平面啟動一個公開的代理服務，待導入集群創建相應的客戶端組件連接代理服務，與控制平面之間建立一个反向代理。此種方式不需要待導入集群和控制平面在同一網路，也不要求待導入集群暴露集群的 apiserver 地址，但會有一定的網路性能損耗</br></br>通常適用於:</br>1. 目前集群和待導入集群不在同一網路中<br/>2. 目前集群和待導入集群無法通過vpn或穿隧協定等其它技術連通所在網路<br/>3. 對集群間網路性能損耗能容忍',
 
   HOW_TO_GET_KUBECONFIG: '如何獲取KubeConfig?',
 

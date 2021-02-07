@@ -1,0 +1,10 @@
+--- src/pages/workspaces/components/Modals/WorkspaceCreate/BaseInfo/index.scss
++++ src/pages/workspaces/components/Modals/WorkspaceCreate/BaseInfo/index.scss
+@@ -16,7 +16,6 @@
+   }
+ }
+ 
+-
+ .upload {
+   margin-top: 20px;
+ }

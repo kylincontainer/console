@@ -1,0 +1,12 @@
+--- src/locales/en/role.js
++++ src/locales/en/role.js
+@@ -132,8 +132,7 @@ export default {
+ 
+   JOIN_PROJECT_PLACEHOLDER:
+     'Invite members by user name or email to join the project.',
+-  ROLE_PROJECTS_JOIN_TIP:
+-    'Enter the username or email address to invite users to the project.',
++  ROLE_PROJECTS_JOIN_TIP: 'Enter the username to invite users to the project.',
+   ROLE_DELETE_TIP:
+     'The current role is already bound to the user, please try again after unbinding.',
+   ROLE_NO_AVAILABLE_TIP: 'No roles are available for the current project.',

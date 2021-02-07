@@ -1,0 +1,30 @@
+--- src/locales/zh/user.js
++++ src/locales/zh/user.js
+@@ -21,6 +21,9 @@ export default {
+   Users: '用户',
+   User: '用户',
+   Accounts: '账号',
++  'audit-admin': '审计管理员',
++  'system-admin': '系统管理员',
++  'secure-admin': '安全管理员',
+   'User Management': '用户管理',
+   'Authorized Projects': '授权项目',
+   'Create User': '创建用户',
+@@ -61,14 +64,14 @@ export default {
+   USER_PENDING: '等待中',
+   USER_DISABLED: '已禁用',
+   USER_DESC:
+-    '系统管理员用此功能模块管理账号，如创建、更新、读取、删除账号等，同时还能关联每个账号的角色；用户用账号名称或邮件地址登录 KubeSphere 平台。',
++    '系统管理员用此功能模块管理账号，如创建、更新、读取、删除账号等，同时还能关联每个账号的角色。',
+   USER_CREATE_DESC:
+-    '系统管理员用此功能模块管理账号，如创建、更新、读取、删除账号等，同时还能关联每个账号的角色；用户用账号名称或邮件地址登录 KubeSphere 平台。',
++    '系统管理员用此功能模块管理账号，如创建、更新、读取、删除账号等，同时还能关联每个账号的角色。',
+   CLUSTER_ROLE_DESC: '集群角色定义了在集群范围内授权用户的访问权限。',
+   ROLE_BASEINFO_DESC: '',
+   ROLE_AUTHORIZATION_DESC: '',
+   MEMBER_ROLE_CREATE_DESC:
+-    '用户的权限管理依赖项目角色定义，角色标识了用户的身份，定义了用户和可访问/操作的资源之间的关系。当 KubeSphere 预置角色不满足使用要求的时候，可以根据实际情况，为用户创建自定义角色，自定义角色最大的优势即对平台资源的细粒度管理，指定该角色拥有某些指定资源的何种权限。',
++    '用户的权限管理依赖项目角色定义，角色标识了用户的身份，定义了用户和可访问/操作的资源之间的关系。当 麒麟容器云 预置角色不满足使用要求的时候，可以根据实际情况，为用户创建自定义角色，自定义角色最大的优势即对平台资源的细粒度管理，指定该角色拥有某些指定资源的何种权限。',
+ 
+   'A built-in cluster administrator': '默认创建的管理员帐户。',
+ 

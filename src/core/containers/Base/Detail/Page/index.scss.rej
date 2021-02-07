@@ -1,0 +1,11 @@
+--- src/core/containers/Base/Detail/Page/index.scss
++++ src/core/containers/Base/Detail/Page/index.scss
+@@ -60,5 +60,8 @@
+         color: $white;
+       }
+     }
++    &:hover {
++      color: $primary;
++    }
+   }
+ }

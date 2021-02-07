@@ -1,0 +1,11 @@
+--- src/pages/devops/containers/Pipelines/index.scss
++++ src/pages/devops/containers/Pipelines/index.scss
+@@ -7,7 +7,7 @@
+ .pipelineSuccessNumber {
+   font-size: 20px;
+   font-weight: bold;
+-  color: $green;
++  color: $blue-color04;
+   margin-right: 8px;
+   vertical-align: unset !important;
+ }

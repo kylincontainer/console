@@ -1,0 +1,11 @@
+--- src/pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ClustersMapper/index.scss
++++ src/pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ClustersMapper/index.scss
+@@ -22,7 +22,7 @@
+   }
+ 
+   &.selected {
+-    background-color: $green-color05;
++    background-color: $blue-color05;
+   }
+ 
+   & + .cluster {

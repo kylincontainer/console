@@ -1,0 +1,11 @@
+--- src/pages/clusters/containers/Overview/Dashboard/ClusterNodes/NodesTop5/index.scss
++++ src/pages/clusters/containers/Overview/Dashboard/ClusterNodes/NodesTop5/index.scss
+@@ -30,7 +30,7 @@
+   padding: 12px;
+   margin: -12px;
+   margin-left: auto;
+-  background-color: #dbefe2;
++  background-color: #7eb8dc;
+ }
+ 
+ .footer {

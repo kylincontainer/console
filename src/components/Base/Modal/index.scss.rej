@@ -1,0 +1,11 @@
+--- src/components/Base/Modal/index.scss
++++ src/components/Base/Modal/index.scss
+@@ -82,7 +82,7 @@
+         line-height: 1.67;
+         font-weight: normal;
+         font-size: 12px;
+-        color: $dark-color01;
++        color: $dark;
+       }
+     }
+   }

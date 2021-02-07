@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -147,8 +147,8 @@ export default {
   'Job Records': 'Job Records',
   'Job Settings': 'Job Settings',
   'Job Template': 'Job Template',
-  'KubeSphere supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
-    'KubeSphere supports pulling images from the Image Registries and creating new images through source code (Source to Image).',
+  'KylinContainerCloud supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
+    'KylinContainerCloud supports pulling images from the Image Registries and creating new images through source code (Source to Image).',
   'Labels cannot be empty': 'Labels cannot be empty',
   'Labels exists': 'Labels exists',
   layers: 'layers',
@@ -360,7 +360,7 @@ export default {
   WORKLOAD_DESC:
     'The workload is usually the actual carrier for accessing the service, and is also the actual running carrier for system applications such as node log collection and monitoring. Workload is an abstract model for a group of Pods.',
   DEPLOYMENT_DESC:
-    'Deployment provides fine-grained management of common applications in KubeSphere. Deployment configuration describes the desired state of specific components of an application as Pod templates.',
+    'Deployment provides fine-grained management of common applications in KylinContainerCloud. Deployment configuration describes the desired state of specific components of an application as Pod templates.',
   DEPLOYMENT_CREATE_DESC:
     "A Deployment controller provides declarative updates for Pods and ReplicaSets, it's used to replace the ReplicationController to get Application management easier. Typically, using Deployment to create pods and ReplicateSet, rolling upgrade and rolling back applications, scaling out or in applications, stopping or resuming applications.",
   STATEFULSET_DESC:

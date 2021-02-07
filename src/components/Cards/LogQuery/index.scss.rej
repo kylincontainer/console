@@ -1,0 +1,11 @@
+--- src/components/Cards/LogQuery/index.scss
++++ src/components/Cards/LogQuery/index.scss
+@@ -129,7 +129,7 @@
+             cursor: pointer;
+           }
+           .select {
+-            color: #55bc8a;
++            color: #167be0;
+           }
+         }
+       }

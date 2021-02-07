@@ -1,0 +1,13 @@
+--- src/pages/devops/containers/Pipelines/EmptyCard/index.jsx
++++ src/pages/devops/containers/Pipelines/EmptyCard/index.jsx
+@@ -35,9 +35,7 @@ export default class EmptyCard extends React.Component {
+ 
+     return (
+       <div className={classnames(styles.wrapper, className)}>
+-        <div>
+-          <img src="/assets/empty-card.svg" alt="" />
+-        </div>
++        <div>{/* <img src="/assets/empty-card.svg" alt="" /> */}</div>
+         <div>
+           <p
+             className={styles.desc}

@@ -1,0 +1,11 @@
+--- src/components/Forms/Service/ServiceSettings/WorkloadSelect/index.scss
++++ src/components/Forms/Service/ServiceSettings/WorkloadSelect/index.scss
+@@ -57,7 +57,7 @@
+     .ring {
+       display: block;
+       border: 3px solid $primary;
+-      box-shadow: 0 4px 8px rgba(85, 188, 138, 0.2);
++      box-shadow: 0 4px 8px #7eb8dc;
+     }
+   }
+ 

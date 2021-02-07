@@ -1,0 +1,23 @@
+--- src/components/KubeTools/index.jsx
++++ src/components/KubeTools/index.jsx
+@@ -200,6 +200,7 @@ export default class KubeTools extends React.Component {
+                   {this.thirdPartyToolList.map(item => (
+                     <List.Item
+                       className={styles.toolItem}
++                      name="kubeToolsInnerBt"
+                       key={item.key || item.link}
+                       icon={item.icon}
+                       title={item.title}
+@@ -229,7 +230,11 @@ export default class KubeTools extends React.Component {
+ 
+     return (
+       <Draggable axis="y">
+-        <div className={styles.trigger} onMouseLeave={this.onMouseLeave}>
++        <div
++          className={styles.trigger}
++          name="kubeToolsOpenBt"
++          onMouseLeave={this.onMouseLeave}
++        >
+           <Button
+             className={styles.button}
+             onMouseEnter={this.onMouseEnter}

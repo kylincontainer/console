@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -461,7 +461,7 @@ export default {
     'please confirm that the modified content is correct, you can save the settings or cancel the settings.',
 
   KS_DESCRIPTION:
-    'KubeSphere is an open source project aiming to provide enterprise-grade multi-tenant container platform on top of Kubernetes, the current mainstream container orchestration platform. It provides easy-to-use interface and wizard-style operations, reducing the learning curve and operating cost of Kubernetes in terms of the daily work of development, test and maintenance.',
+    'KylinContainerCloud is an open source project aiming to provide enterprise-grade multi-tenant container platform on top of Kubernetes, the current mainstream container orchestration platform. It provides easy-to-use interface and wizard-style operations, reducing the learning curve and operating cost of Kubernetes in terms of the daily work of development, test and maintenance.',
 
   REPS_ADDRESS: 'GitHub',
   ISSUE_FEEDBACK: 'Feedback',
@@ -483,7 +483,7 @@ export default {
 
   'rules text': 'How to define operational audit collection rules?',
   'rules desc':
-    'KubeSphere can collect operation audits according to the rules you set. Click to see how to define the rules.',
+    'KylinContainerCloud can collect operation audits according to the rules you set. Click to see how to define the rules.',
 
   EVENT_CREATE_DESC: 'You can change the search criteria and search again.',
 
@@ -540,8 +540,9 @@ export default {
   NO_HISTORY_DESC:
     'You can try to access resources, such as workspaces, clusters or projects.',
 
-  USER_GUIDES_DESC: 'The most comprehensive user guide of KubeSphere.',
+  USER_GUIDES_DESC: 'The most comprehensive user guide of KylinContainerCloud.',
   DEVELOPER_DESC: 'Raise a question in the developer community to get help.',
-  API_DOCS_DESC: 'The most comprehensive KubeSphere API documentation.',
+  API_DOCS_DESC:
+    'The most comprehensive KylinContainerCloud API documentation.',
   GITHUB_ISSUES_DESC: 'Raise an issue in GitHub to get help.',
 }

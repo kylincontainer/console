@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -85,7 +85,7 @@ export default {
   USER_AVATAR_TIP:
     'El tamaño del avatar debe ser inferior a 120 px X 120 px y debe admitir el formato png, jpg.',
   MEMBER_ROLE_CREATE_DESC:
-    'Lo que un usuario está autorizado a hacer depende de la función que define la identidad del usuario, así como de la relación entre el usuario y los recursos que el usuario tiene acceso para ver y manejar. Los usuarios pueden crear roles personalizados cuando el rol preestablecido de KubeSphere no satisface sus necesidades. La mayor ventaja de los roles personalizados es que se pueden configurar para admitir la gestión detallada de los recursos de la plataforma, ya que se pueden autorizar diferentes roles para acceder a diferentes recursos',
+    'Lo que un usuario está autorizado a hacer depende de la función que define la identidad del usuario, así como de la relación entre el usuario y los recursos que el usuario tiene acceso para ver y manejar. Los usuarios pueden crear roles personalizados cuando el rol preestablecido de KylinContainerCloud no satisface sus necesidades. La mayor ventaja de los roles personalizados es que se pueden configurar para admitir la gestión detallada de los recursos de la plataforma, ya que se pueden autorizar diferentes roles para acceder a diferentes recursos',
   CLUSTER_ROLE_DESC:
     'Este módulo le permite administrar el acceso de los usuarios dentro de un clúster.',
 }

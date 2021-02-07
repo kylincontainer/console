@@ -1,0 +1,10 @@
+--- src/pages/clusters/containers/Network/Policies/index.scss
++++ src/pages/clusters/containers/Network/Policies/index.scss
+@@ -13,6 +13,6 @@
+   color: #fff;
+   &:hover {
+     background-color: #324558;
+-    color: $green-color03;
++    color: $blue-color03;
+   }
+ }

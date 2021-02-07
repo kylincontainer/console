@@ -1,0 +1,11 @@
+--- src/scss/lego.theme.scss
++++ src/scss/lego.theme.scss
+@@ -6,7 +6,7 @@ $family-serif: $font-family;
+ $family-monospace: $font-family-id;
+ $body-family: $font-family;
+ 
+-$primary: $green;
++$primary: $blue-color04;
+ $neutral-15: $text-color;
+ $strong-color: $text-color;
+ 

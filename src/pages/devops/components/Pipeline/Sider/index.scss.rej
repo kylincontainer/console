@@ -1,0 +1,11 @@
+--- src/pages/devops/components/Pipeline/Sider/index.scss
++++ src/pages/devops/components/Pipeline/Sider/index.scss
+@@ -86,7 +86,7 @@
+ }
+ 
+ .clickable {
+-  color: $green;
++  color: $blue-color04;
+   cursor: pointer;
+ }
+ 

@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -68,8 +68,8 @@ export default {
   'Current Version': 'Current Version',
   Deploy: 'Deploy',
   'Deploy App': 'Deploy App',
-  'Deploy applications with one-click application templates provided by Kubesphere':
-    'Deploy applications with one-click application templates provided by Kubesphere',
+  'Deploy applications with one-click application templates provided by KylinContainerCloud':
+    'Deploy applications with one-click application templates provided by KylinContainerCloud',
   'Deploy New Application': 'Deploy New Application',
   'Deploy sample app Bookinfo': 'Deploy sample app Bookinfo',
   'Deployed Applications': 'Deployed Applications',
@@ -153,7 +153,7 @@ export default {
   TOTAL_APPS: 'Total {num} applications',
 
   APPLICATIONS_DESC:
-    'An application provides users with comprehensive business functions in one package. App templates in KubeSphere are built on the Helm packaging specification. They are delivered through a unified public or private Helm repository. An application is composed of one or more Kubernetes objects including workloads, services and ingress.',
+    'An application provides users with comprehensive business functions in one package. App templates in KylinContainerCloud are built on the Helm packaging specification. They are delivered through a unified public or private Helm repository. An application is composed of one or more Kubernetes objects including workloads, services and ingress.',
   APP_DEPLOYMENT_DESC:
     'Lightweight, portable and self-contained software packaging technology enables applications to run in almost any place in the same way.',
 
@@ -196,27 +196,27 @@ export default {
   WORKLOAD_NAME_EXIST: 'Workload {name} exists',
 
   APPLICATION_TYPE_DESC:
-    'KubeSphere supports application deployments (based on Helm) from the App Store, as well as Application CRD.',
+    'KylinContainerCloud supports application deployments (based on Helm) from the App Store, as well as Application CRD.',
 
   HOW_TO_USE_APPLICATION_GOVE_Q: 'How to use Application Governance?',
   HOW_TO_USE_APPLICATION_GOVE_A:
     'Please create a composing app and enable service governance for each service before you use Application Governance.',
 
   FROM_APP_STORE_DESC:
-    'From the official App Store of KubeSphere with high-quality applications and easy deployments.',
+    'From the official App Store of KylinContainerCloud with high-quality applications and easy deployments.',
   FROM_APP_TEMPLATES_DESC:
     'From the app templates of workspace and the third-party Helm app templates of App Repository.',
   COMPOSING_APP_DESC:
     'You can publish services to build applications through resource orchestration (Application Governance supported).',
   APP_TEMPLATES_MODAL_DESC:
-    'The app template comes from the workspace and the third-party Helm app templates. It supports one click deployment and can be visualized in KubeSphere to show and provide deployments and management functions.',
+    'The app template comes from the workspace and the third-party Helm app templates. It supports one click deployment and can be visualized in KylinContainerCloud to show and provide deployments and management functions.',
 
   TIP_APP_TYPE:
-    'KubeSphere supports application deployment (based on Helm) from app stores and app repositories, as well as home-made applications (Application CRD).',
+    'KylinContainerCloud supports application deployment (based on Helm) from app stores and app repositories, as well as home-made applications (Application CRD).',
   TIP_APP_GOVERNANCE:
     'Using App Governance requires creating a homebrew app and turning on service governance for each service',
   APP_REPOS_DESC:
-    'The app repository comes from a third-party Helm Chart Repo, which visually displays and provides deployment and management capabilities in KubeSphere. Users can quickly deploy applications with one click based on templates in the app repository.',
+    'The app repository comes from a third-party Helm Chart Repo, which visually displays and provides deployment and management capabilities in KylinContainerCloud. Users can quickly deploy applications with one click based on templates in the app repository.',
   SEARCH_TIPS: 'You can filter based on relevant conditions',
 
   APPLICATION_BASEINFO_DESC:

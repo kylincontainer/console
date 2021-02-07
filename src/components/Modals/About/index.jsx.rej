@@ -1,0 +1,34 @@
+--- src/components/Modals/About/index.jsx
++++ src/components/Modals/About/index.jsx
+@@ -35,7 +35,7 @@ export default class AboutModal extends Component {
+   }
+ 
+   render() {
+-    const { issueUrl, reposUrl, version, slackUrl } = globals.config
++    const { version } = globals.config
+     return (
+       <Modal
+         bodyClassName={styles.body}
+@@ -50,11 +50,11 @@ export default class AboutModal extends Component {
+           </div>
+           <p>{t('KS_DESCRIPTION')}</p>
+           <strong>
+-            KubeSphere {t('Version')} : {version.kubesphere}
++            麒麟容器云 {t('Version')} : {version.KylinContainerCloud}
+           </strong>
+         </div>
+ 
+-        <div className={styles.links}>
++        {/* <div className={styles.links}>
+           <div className={styles.left}>
+             <span>
+               <a href={reposUrl} target="_blank">
+@@ -89,7 +89,7 @@ export default class AboutModal extends Component {
+               </a>
+             </span>
+           </div>
+-        </div>
++        </div> */}
+       </Modal>
+     )
+   }

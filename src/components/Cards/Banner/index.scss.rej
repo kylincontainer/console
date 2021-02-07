@@ -1,0 +1,21 @@
+--- src/components/Cards/Banner/index.scss
++++ src/components/Cards/Banner/index.scss
+@@ -29,6 +29,9 @@
+ 
+   .title {
+     padding-left: 72px;
++    p {
++      color: $dark !important;
++    }
+ 
+     :global {
+       .h3 {
+@@ -89,7 +92,7 @@
+       @include TypographyTitleH6($dark-color07);
+     }
+     & > p {
+-      @include TypographyParagraph($dark-color01);
++      @include TypographyParagraph($dark);
+     }
+   }
+ }

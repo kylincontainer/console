@@ -1,0 +1,12 @@
+--- src/locales/zh/workload.js
++++ src/locales/zh/workload.js
+@@ -140,8 +140,7 @@ export default {
+ 
+   IMAGE_PLACEHOLDER: '点击右侧图标可选择镜像，或直接输入名称 例：nginx:latest',
+   IMAGE_REGISTRY_PLACEHOLDER: '请选择镜像仓库密钥',
+-  IMAGE_DESC:
+-    '要从私有镜像仓库部署，需要先<a href={link} target="_blank">创建镜像仓库密钥</a>，然后拉取镜像。',
++  IMAGE_DESC: '要从私有镜像仓库部署，需要先创建镜像仓库密钥，然后拉取镜像。',
+ 
+   Replicas: '副本',
+   'Replicas Number': '副本数量',

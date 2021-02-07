@@ -1,0 +1,11 @@
+--- src/components/Modals/UserCreate/index.scss
++++ src/components/Modals/UserCreate/index.scss
+@@ -15,7 +15,7 @@
+   overflow: hidden;
+ 
+   & > div {
+-    @include TypographyTitleH6($white);
++    @include TypographyTitleH6($dark);
+   }
+ 
+   & > p {

@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -47,8 +47,8 @@ export default {
   'Build an app by app template': '應用模板部署',
   'Choose existing services or create new service components to build an app':
     '選擇已有服務或者新建服務組件來構建應用',
-  'Deploy applications with one-click application templates provided by Kubesphere':
-    '通過 Kubesphere 提供的應用模板一鍵部署應用',
+  'Deploy applications with one-click application templates provided by KylinContainerCloud':
+    '通過 KylinContainerCloud 提供的應用模板一鍵部署應用',
   'Sample apps can help you get started with app creation and app governance':
     '示例應用可以幫助您快速入手應用創建, 以及應用治理功能',
 
@@ -201,7 +201,7 @@ export default {
   WORKLOAD_NAME_EXIST: '工作負載 {name} 已存在',
 
   APPLICATION_TYPE_DESC:
-    'KubeSphere 支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同樣也支持自制應用 (Application CRD)。',
+    '麒麟容器云支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同樣也支持自制應用 (Application CRD)。',
 
   APPLICATION_SERVICE_DESC:
     '根據應用中服務類型的不同設置不同類型的服務組件，支持無狀態服務和有狀態服務',
@@ -215,7 +215,7 @@ export default {
 
   'App Types': '應用的類型',
   TIP_APP_TYPE:
-    'KubeSphere 支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同样也支持自制應用 (Application CRD)。',
+    '麒麟容器云支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同样也支持自制應用 (Application CRD)。',
   'How to use Application Governance': '如何使用應用治理',
   TIP_APP_GOVERNANCE:
     '使用應用治理需要創建自制應用並對每項服務開啟服務治理功能',
@@ -224,14 +224,14 @@ export default {
   'From App Templates': '來自應用模板',
   'From third party Helm': '來自第三方 Helm',
   FROM_APP_STORE_DESC:
-    '來自KubeSphere官方應用商店，提供高質量應用和簡易的部署方式',
+    '來自KylinContainerCloud官方應用商店，提供高質量應用和簡易的部署方式',
   FROM_APP_TEMPLATES_DESC:
     '來自於企業空間的自制應用模板以及應用倉庫中添加的第三方Helm 應用模板',
   COMPOSING_APP_DESC: '通過資源編排的方式發佈服務構建應用(支持應用治理功能)',
   APP_TEMPLATES_MODAL_DESC:
-    '應用模板來自於企業空間和第三方的Helm應用模板，支持一鍵部署並可通過視覺化的方式在KubeSphere中展示並提供部署及管理的功能',
+    '應用模板來自於企業空間和第三方的Helm應用模板，支持一鍵部署並可通過視覺化的方式在KylinContainerCloud中展示並提供部署及管理的功能',
   APP_REPOS_DESC:
-    '應用倉庫來自於第三方的 Helm Chart Repo，通過視覺化的方式在 KubeSphere 中展示並提供部署及管理功能，用戶可以基於應用倉庫中的模板快速地一鍵部署應用。',
+    '應用倉庫來自於第三方的 Helm Chart Repo，通過視覺化的方式在 KylinContainerCloud 中展示並提供部署及管理功能，用戶可以基於應用倉庫中的模板快速地一鍵部署應用。',
   SEARCH_TIPS: '您可以根據相關條件進行過濾',
 
   'From workspace': '來自企業空間',

@@ -1,0 +1,11 @@
+--- src/pages/apps/components/VersionStatus/index.scss
++++ src/pages/apps/components/VersionStatus/index.scss
+@@ -30,7 +30,7 @@
+     width: 12px;
+     height: 12px;
+     background-color: $white;
+-    border: 2px  solid $green-color03;
++    border: 2px  solid $blue-color03;
+     border-radius: 50%;
+   }
+ 

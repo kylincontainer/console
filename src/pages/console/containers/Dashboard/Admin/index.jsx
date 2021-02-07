@@ -61,7 +61,7 @@ export default class AdminDashboard extends React.Component {
         <>
           <Panel className={styles.info} title={t('Platform Info')}>
             <Text
-              title={get(globals, 'config.version.kubesphere')}
+              title={get(globals, 'config.version.KylinContainerCloud')}
               description={t('Platform Version')}
             />
             {globals.app.isMultiCluster ? (

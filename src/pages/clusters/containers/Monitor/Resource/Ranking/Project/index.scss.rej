@@ -1,0 +1,11 @@
+--- src/pages/clusters/containers/Monitor/Resource/Ranking/Project/index.scss
++++ src/pages/clusters/containers/Monitor/Resource/Ranking/Project/index.scss
+@@ -97,7 +97,7 @@
+       border-radius: 0 4px 4px 0;
+     }
+     .rankLink__sort_col {
+-      background: #dbefe2;
++      background: #7eb8dc;
+     }
+   }
+ }

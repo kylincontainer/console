@@ -1,0 +1,11 @@
+--- src/pages/appStore/containers/AppDetail/index.scss
++++ src/pages/appStore/containers/AppDetail/index.scss
+@@ -49,7 +49,7 @@ $toolbar-height: 52px;
+ 
+             &.is-active {
+               background-color: $white;
+-              color: $green-color04;
++              color: $blue-color04;
+             }
+           }
+         }

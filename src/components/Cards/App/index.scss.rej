@@ -1,0 +1,11 @@
+--- src/components/Cards/App/index.scss
++++ src/components/Cards/App/index.scss
+@@ -59,7 +59,7 @@ $card-height: 152px;
+ 
+   .bottom {
+     margin-top: 24px;
+-    color: $dark-color01;
++    color: $dark;
+ 
+     .vendor {
+       float: left;

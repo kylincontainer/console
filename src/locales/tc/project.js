@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -66,7 +66,7 @@ export default {
   Closed: '已關閉',
 
   PROJECT_CREATE_DESC:
-    'KubeSphere 中的項目對應的是 Kubernetes 的 namespace，是對一組資源和對象的抽象集合，常用來將系統内部的對象劃分為不同的項目組或用戶組。',
+    'KylinContainerCloud 中的項目對應的是 Kubernetes 的 namespace，是對一組資源和對象的抽象集合，常用來將系統内部的對象劃分為不同的項目組或用戶組。',
   PROJECT_NAME_DESC: '項目名稱只能包含小寫字母、數字及分隔符號("-")',
   'Please input project name': '請輸入項目名稱',
   'Invalid project name': '項目名稱格式不合法',
@@ -134,13 +134,13 @@ export default {
   Usage: '使用情況',
 
   PROJECTS_DESC:
-    'KubeSphere 中的項目對應的是 Kubernetes 的 namespace，是對一組資源和對象的抽象集合，常用來將系統内部的對象劃分為不同的項目組或用戶組。',
+    'KylinContainerCloud 中的項目對應的是 Kubernetes 的 namespace，是對一組資源和對象的抽象集合，常用來將系統内部的對象劃分為不同的項目組或用戶組。',
   PROJECT_BASEINFO_DESC: '項目基礎資訊設置',
   PROJECT_ADVANCE_DESC: '設置項目資源預設請求',
 
   PROJECT_TYPES_PROJECT_TITLE: '創建資源類型項目',
   PROJECT_TYPES_PROJECT_DESC:
-    'KubeSphere 中的項目對應的是 Kubernetes 的 namespace，是對一組資源和對象的抽象集合，可以根據不同的業務部門或者產品項目進行資源分組。',
+    'KylinContainerCloud 中的項目對應的是 Kubernetes 的 namespace，是對一組資源和對象的抽象集合，可以根據不同的業務部門或者產品項目進行資源分組。',
   PROJECT_TYPES_DEVOPS_TITLE: '創建一個 DevOps 工程',
   PROJECT_TYPES_DEVOPS_DESC: '持續、自動地構建/測試軟體項目。',
 

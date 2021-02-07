@@ -1,0 +1,12 @@
+--- src/components/Charts/Area/SimpleArea/index.jsx
++++ src/components/Charts/Area/SimpleArea/index.jsx
+@@ -42,8 +42,8 @@ import { getActiveSeries } from 'components/Charts/utils'
+ import styles from './index.scss'
+ 
+ const AreaColors = [
+-  'green',
+   'blue',
++  'green',
+   'yellow',
+   'red',
+   'darkestGreen',

@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -434,7 +434,8 @@ export default {
   EVENT_CREATE_DESC: '您可以改變搜索條件重新查詢',
   'Event Search': '事件查詢',
   EVENT_SEARCH_DESC: '針對企業空間、項目、資源等多維度的事件查詢工具。',
-  EVENT_DESC: '事件查詢（Event）是KubeSphere提供的平台内資源的歷史事件查詢',
+  EVENT_DESC:
+    '事件查詢（Event）是KylinContainerCloud提供的平台内資源的歷史事件查詢',
   'Search By Condition': '根據條件進行尋找',
   'search condition': '搜索條件',
   'Search tips': '搜索提示',
@@ -444,7 +445,7 @@ export default {
   'workspaces found': '共找到 {count} 個企業空間',
   'rules text': '如何定義操作審計收集規則？ 🤔',
   'rules desc':
-    'KubeSphere可以根據您設置的規則進行操作審計的收集，點擊查看如何定義規則。',
+    'KylinContainerCloud可以根據您設置的規則進行操作審計的收集，點擊查看如何定義規則。',
   Category: '類别',
   Resource: '資源',
   'Earliest start time': '最早發生時間',
@@ -494,7 +495,7 @@ export default {
   'Learn more': '了解更多',
 
   KS_DESCRIPTION:
-    'KubeSphere 是一款開源項目，在目前主流容器調度平台 Kubernetes 之上構建的企業級分佈式多租戶容器管理平台，提供簡單易用的操作界面以及引導式操作方式，在降低用戶使用容器調度平台學習成本的同時，極大降低開發、測試、維運的日常工作的複雜度。',
+    'KylinContainerCloud 是一款開源項目，在目前主流容器調度平台 Kubernetes 之上構建的企業級分佈式多租戶容器管理平台，提供簡單易用的操作界面以及引導式操作方式，在降低用戶使用容器調度平台學習成本的同時，極大降低開發、測試、維運的日常工作的複雜度。',
 
   REPS_ADDRESS: '項目地址',
   ISSUE_FEEDBACK: '問題反饋',
@@ -530,9 +531,9 @@ export default {
     '當您在多個企業空間或者項目下進行協同工作時，瀏覽器會紀錄下您最近訪問的路徑，您可以透過 F1 / (Win + K) / (Command + K) 查看歷史紀錄，來快速切換您的訪問資源。',
   NO_HISTORY_TITLE: '瀏覽器暫未收錄到您對集群或者企業空間等區域的訪問紀錄',
   NO_HISTORY_DESC: '您可以嘗試對企業空間或者集群、項目等資源的訪問',
-  USER_GUIDES_DESC: '最詳盡的 KubeSphere 用戶指南文件',
+  USER_GUIDES_DESC: '最詳盡的 KylinContainerCloud 用戶指南文件',
   DEVELOPER_DESC: '透過在開發者社區提出問題獲得幫助',
-  API_DOCS_DESC: '最詳盡的 KubeSphere API 文件',
+  API_DOCS_DESC: '最詳盡的 KylinContainerCloud API 文件',
   GITHUB_ISSUES_DESC: '透過在 GitHub 提出 Issue 獲得幫助',
 
   ENV_PRODUCTION: '生產環境',

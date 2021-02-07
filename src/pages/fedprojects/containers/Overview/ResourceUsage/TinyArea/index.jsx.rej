@@ -1,0 +1,11 @@
+--- src/pages/fedprojects/containers/Overview/ResourceUsage/TinyArea/index.jsx
++++ src/pages/fedprojects/containers/Overview/ResourceUsage/TinyArea/index.jsx
+@@ -72,7 +72,7 @@ export default class TinyArea extends React.Component {
+   renderArea() {
+     const { unit, areaColors } = this.props
+     const dot = {
+-      stroke: '#55bc8a',
++      stroke: '#167be0',
+       strokeWidth: 1,
+       fill: '#fff',
+       fillOpacity: 1,

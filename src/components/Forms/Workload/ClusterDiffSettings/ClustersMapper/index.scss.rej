@@ -1,0 +1,11 @@
+--- src/components/Forms/Workload/ClusterDiffSettings/ClustersMapper/index.scss
++++ src/components/Forms/Workload/ClusterDiffSettings/ClustersMapper/index.scss
+@@ -18,7 +18,7 @@
+   }
+ 
+   &.selected {
+-    background-color: $green-color05;
++    background-color: $blue-color05;
+   }
+ 
+   & + .cluster {

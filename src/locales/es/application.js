@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -69,8 +69,8 @@ export default {
   'Current Version': 'Versión actual',
   Deploy: 'Desplegar',
   'Deploy App': 'Desplegar aplicación',
-  'Deploy applications with one-click application templates provided by Kubesphere':
-    'Despliega aplicaciones con plantillas de aplicaciones proporcionadas por Kubesphere, con un solo click',
+  'Deploy applications with one-click application templates provided by KylinContainerCloud':
+    'Despliega aplicaciones con plantillas de aplicaciones proporcionadas por KylinContainerCloud, con un solo click',
   'Deploy New Application': 'Desplegar nueva aplicación',
   'Deploy sample app Bookinfo': 'Desplegar la aplicación de ejemplo Bookinfo',
   'Deployed Applications': 'Aplicaciones desplegadas',
@@ -158,7 +158,7 @@ export default {
   'Workload Type': 'Tipo de carga de trabajo',
   TOTAL_APPS: 'Total de {num} aplicaciones',
   APPLICATIONS_DESC:
-    'Una aplicación proporciona a los usuarios funciones comerciales integrales en un solo paquete. Las plantillas de aplicación en KubeSphere se basan en la especificación de empaquetado de Helm. Se entregan a través de un repositorio Helm público o privado unificado. Una aplicación está compuesta por uno o más objetos de Kubernetes, que incluyen workload, servicios e ingress.',
+    'Una aplicación proporciona a los usuarios funciones comerciales integrales en un solo paquete. Las plantillas de aplicación en KylinContainerCloud se basan en la especificación de empaquetado de Helm. Se entregan a través de un repositorio Helm público o privado unificado. Una aplicación está compuesta por uno o más objetos de Kubernetes, que incluyen workload, servicios e ingress.',
   APP_DEPLOYMENT_DESC:
     'La liviana, portátil y autónoma tecnología de empaquetado de software permite que las aplicaciones se ejecuten en casi cualquier lugar de la misma manera.',
   LB_ALG_DESC:
@@ -190,24 +190,24 @@ export default {
   'Last {day} days': 'Últimos {day} días',
   WORKLOAD_NAME_EXIST: 'La carga de trabajo {name} existe',
   APPLICATION_TYPE_DESC:
-    'KubeSphere admite implementaciones de aplicaciones (basadas en Helm) desde App Store, así como Application CRD.',
+    'KylinContainerCloud admite implementaciones de aplicaciones (basadas en Helm) desde App Store, así como Application CRD.',
   HOW_TO_USE_APPLICATION_GOVE_Q: '¿Cómo usar la Gestión de aplicaciones?',
   HOW_TO_USE_APPLICATION_GOVE_A:
     'Cree una aplicación por composición y habilite la gestión de servicios para cada servicio antes de utilizar la gestión de aplicaciones.',
   FROM_APP_STORE_DESC:
-    'Desde la tienda de aplicaciones oficial de KubeSphere con aplicaciones de alta calidad y despliegues fáciles.',
+    'Desde la tienda de aplicaciones oficial de KylinContainerCloud con aplicaciones de alta calidad y despliegues fáciles.',
   FROM_APP_TEMPLATES_DESC:
     'Desde las plantillas de aplicación del espacio de trabajo y las plantillas de aplicaciones Helm de terceros del repositorio de aplicaciones.',
   COMPOSING_APP_DESC:
     'Puedes publicar servicios para crear aplicaciones a través de la orquestación de recursos (compatible con la gestión de aplicación).',
   APP_TEMPLATES_MODAL_DESC:
-    'La plantilla de la aplicación proviene del espacio de trabajo y las plantillas de aplicación de Helm de terceros. Admite el despliegue con un click y se puede visualizar en KubeSphere para mostrar y proporcionar despliegues y funciones de administración.',
+    'La plantilla de la aplicación proviene del espacio de trabajo y las plantillas de aplicación de Helm de terceros. Admite el despliegue con un click y se puede visualizar en KylinContainerCloud para mostrar y proporcionar despliegues y funciones de administración.',
   TIP_APP_TYPE:
-    'KubeSphere admite el despliegue de aplicaciones (basado en Helm) desde tiendas de aplicaciones y repositorios de aplicaciones, así como aplicaciones propias (Application CRD).',
+    'KylinContainerCloud admite el despliegue de aplicaciones (basado en Helm) desde tiendas de aplicaciones y repositorios de aplicaciones, así como aplicaciones propias (Application CRD).',
   TIP_APP_GOVERNANCE:
     'Usar la gestión de aplicación requiere crear una aplicación propia y activar la gestión para cada servicio',
   APP_REPOS_DESC:
-    'El repositorio de aplicaciones proviene de un repositorio de Charts de Helm de terceros, que visualmente muestra y proporciona capacidades de despliegue y administración en KubeSphere. Los usuarios pueden desplegar rápidamente aplicaciones con un solo click, basadas en las plantillas del repositorio de aplicaciones.',
+    'El repositorio de aplicaciones proviene de un repositorio de Charts de Helm de terceros, que visualmente muestra y proporciona capacidades de despliegue y administración en KylinContainerCloud. Los usuarios pueden desplegar rápidamente aplicaciones con un solo click, basadas en las plantillas del repositorio de aplicaciones.',
   SEARCH_TIPS: 'Puedes filtrar según las condiciones relevantes',
   APPLICATION_BASEINFO_DESC:
     'Información básica de la aplicación (como la descripción)',

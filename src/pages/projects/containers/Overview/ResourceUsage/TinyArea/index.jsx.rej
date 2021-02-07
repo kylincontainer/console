@@ -1,0 +1,20 @@
+--- src/pages/projects/containers/Overview/ResourceUsage/TinyArea/index.jsx
++++ src/pages/projects/containers/Overview/ResourceUsage/TinyArea/index.jsx
+@@ -31,7 +31,7 @@ import {
+ } from 'recharts'
+ import CustomTooltip from 'components/Charts/Custom/Tooltip'
+ 
+-const AreaColors = ['green', 'blue', 'yellow', 'red']
++const AreaColors = ['blue', 'green', 'yellow', 'red']
+ 
+ export default class TinyArea extends React.Component {
+   static propTypes = {
+@@ -72,7 +72,7 @@ export default class TinyArea extends React.Component {
+   renderArea() {
+     const { unit, areaColors } = this.props
+     const dot = {
+-      stroke: '#55bc8a',
++      stroke: '#167be0',
+       strokeWidth: 1,
+       fill: '#fff',
+       fillOpacity: 1,

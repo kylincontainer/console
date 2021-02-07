@@ -1,0 +1,11 @@
+--- src/pages/projects/containers/Deployments/Detail/Monitoring/index.scss
++++ src/pages/projects/containers/Deployments/Detail/Monitoring/index.scss
+@@ -12,7 +12,7 @@
+     font-weight: 600;
+ 
+     &:hover {
+-      color: $green;
++      color: $blue-color04;
+     }
+   }
+ }

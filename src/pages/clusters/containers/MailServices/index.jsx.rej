@@ -1,0 +1,11 @@
+--- src/pages/clusters/containers/MailServices/index.jsx
++++ src/pages/clusters/containers/MailServices/index.jsx
+@@ -138,7 +138,7 @@ class MailServerConfig extends React.Component {
+           <Banner
+             type="purple"
+             icon="file"
+-            rightIcon="/assets/banner-icon-1.svg"
++            // rightIcon="/assets/banner-icon-1.svg"
+             name={t('Mail Server')}
+             desc={t('MAIL_SERVER_DESC')}
+             className={styles.banner}

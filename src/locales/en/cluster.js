@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -61,8 +61,8 @@ export default {
   'Nodes Management': 'Nodes Management',
   'Not Ready': 'Not Ready',
   'Please input cluster name': 'Please input cluster name',
-  'Please input the kubesphere api server address of the cluster':
-    'Please input the kubesphere api server address of the cluster',
+  'Please input the KylinContainerCloud api server address of the cluster':
+    'Please input the KylinContainerCloud api server address of the cluster',
   'Please select or input a provider': 'Please select or input a provider',
   'Please select or input a tag': 'Please select or input a tag',
   'Scheduler Scheduling Times': 'Scheduler Scheduling Times',
@@ -84,10 +84,10 @@ export default {
 
   NO_CLUSTER_TIP: 'Please add at least one cluster.',
   NO_CLUSTER_TIP_DESC:
-    'A cluster is a group of nodes (physical or virtual machines) running Kubernetes, and the function of Kubesphere also depends on the nodes in the cluster.',
+    'A cluster is a group of nodes (physical or virtual machines) running Kubernetes, and the function of KylinContainerCloud also depends on the nodes in the cluster.',
   ADD_NEW_CLUSTER_DESC: 'Add a new Kubernetes cluster',
   CHOOSE_PROVIDER_DESC:
-    'KubeSphere provides a solution for quickly deploying Kubernetes clusters among mainstream service providers',
+    'KylinContainerCloud provides a solution for quickly deploying Kubernetes clusters among mainstream service providers',
 
   VISIBILITY_PART: 'Partially Visible',
   VISIBILITY_PUBLIC: 'Public',
@@ -129,16 +129,17 @@ export default {
 
   INVITE_CLUSTER_MEMBER_DESC: 'You can invite new members to this cluster.',
 
-  CLUSTER_API_SERVER_TITLE: 'Kubesphere API Server to be added to the cluster',
+  CLUSTER_API_SERVER_TITLE:
+    'KylinContainerCloud API Server to be added to the cluster',
   CLUSTER_API_SERVER_DESC:
-    'You need to input the KubeSphere API Server address to be added to the cluster',
+    'You need to input the KylinContainerCloud API Server address to be added to the cluster',
 
   INPUT_KUBECONFIG: 'Please fill in the kubeconfig of the target cluster',
 
   CLUSTER_DIRECT_IMPORT_TIP:
-    'The multi-cluster control plane of KubeSphere connects to imported clusters through the kubeconfig provided. For this method, the current cluster must be able to directly access clusters that are to be imported through the server address in the kubeconfig.</br></br>This method generally applies to the conditions below:</br>1. The current cluster and clusters to be imported are in the same internal network.</br>2. The network of both the current cluster and clusters to be imported is connected through VPN or other technologies (e.g. Tunneling).</br>3. The server address in the kubeconfig can be accessed through public network.',
+    'The multi-cluster control plane of KylinContainerCloud connects to imported clusters through the kubeconfig provided. For this method, the current cluster must be able to directly access clusters that are to be imported through the server address in the kubeconfig.</br></br>This method generally applies to the conditions below:</br>1. The current cluster and clusters to be imported are in the same internal network.</br>2. The network of both the current cluster and clusters to be imported is connected through VPN or other technologies (e.g. Tunneling).</br>3. The server address in the kubeconfig can be accessed through public network.',
   CLUSTER_AGENT_IMPORT_TIP:
-    'The KubeSphere control plane connects to clusters that are to be imported through a proxy. The control plane runs a public proxy service, which is connected to a client component created by clusters to be imported. Thus, a reserve proxy is created. For this method, the control plane and clusters to be imported do not need to be in the same network. The apiserver address of clusters to be imported does not need to be exposed either. However, network performance may be affected.</br></br>This method generally applies to the conditions below:</br>1. The current cluster and clusters to be imported are not in the same network.<br/>2. The network of both the current cluster and clusters to be imported cannot be connected through VPN or other technologies (e.g. Tunneling).<br/>3. Network performance deficiencies within clusters can be accepted.',
+    'The KylinContainerCloud control plane connects to clusters that are to be imported through a proxy. The control plane runs a public proxy service, which is connected to a client component created by clusters to be imported. Thus, a reserve proxy is created. For this method, the control plane and clusters to be imported do not need to be in the same network. The apiserver address of clusters to be imported does not need to be exposed either. However, network performance may be affected.</br></br>This method generally applies to the conditions below:</br>1. The current cluster and clusters to be imported are not in the same network.<br/>2. The network of both the current cluster and clusters to be imported cannot be connected through VPN or other technologies (e.g. Tunneling).<br/>3. Network performance deficiencies within clusters can be accepted.',
   CLUSTER_AGENT_TITLE:
     'Please add the cluster based on the Agent provided in the cluster.',
   CLUSTER_AGENT_DESC: 'A corresponding Agent needs to be set in the cluster.',
@@ -146,7 +147,7 @@ export default {
   HOW_TO_GET_KUBECONFIG: 'How to get kubeconfig?',
 
   UNBIND_CLUSTER_DESC:
-    'After the cluster is unbound, KubeSphere will be unable to manage the cluster and Kubernetes resources within the cluster will not be deleted.',
+    'After the cluster is unbound, KylinContainerCloud will be unable to manage the cluster and Kubernetes resources within the cluster will not be deleted.',
   SURE_TO_UNBIND_CLUSTER: 'I confirm I want to unbind the cluster.',
 
   AUTHORIZE_CLUSTER_TO_WORKSPACE_DESC:

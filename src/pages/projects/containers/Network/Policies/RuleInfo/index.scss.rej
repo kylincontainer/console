@@ -1,0 +1,11 @@
+--- src/pages/projects/containers/Network/Policies/RuleInfo/index.scss
++++ src/pages/projects/containers/Network/Policies/RuleInfo/index.scss
+@@ -49,7 +49,7 @@
+   color: #fff;
+   &:hover {
+     background-color: #324558;
+-    color: $green-color03;
++    color: $blue-color03;
+   }
+ }
+ .subtitle {

@@ -1,0 +1,11 @@
+--- src/pages/devops/components/Status/index.scss
++++ src/pages/devops/components/Status/index.scss
+@@ -42,7 +42,7 @@
+ 
+ .success {
+   background-image: url('/assets/cicd-success.svg');
+-  background-color: $green;
++  background-color: $blue-color04;
+ }
+ 
+ .paused {

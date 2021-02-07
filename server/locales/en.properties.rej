@@ -1,0 +1,10 @@
+--- server/locales/en.properties
++++ server/locales/en.properties
+@@ -1,6 +1,6 @@
+ 'Log In' = 'Log In'
+ 'Please Log In' = 'Please Log In'
+-'Username or Email' = 'Username or Email'
++'Username' = 'Username'
+ Password = Password
+ Captcha = Captcha
+ 'User does not exist' = 'User does not exist'

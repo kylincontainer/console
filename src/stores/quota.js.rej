@@ -1,0 +1,13 @@
+--- src/stores/quota.js
++++ src/stores/quota.js
+@@ -35,7 +35,9 @@ export default class QuotaStore extends Base {
+     )
+ 
+     this.data = result.data
+-
++    if (result.data === 'Namespace inaccessible') {
++      location.href = '/404'
++    }
+     this.isLoading = false
+   }
+ }

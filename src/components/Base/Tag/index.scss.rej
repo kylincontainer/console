@@ -1,0 +1,11 @@
+--- src/components/Base/Tag/index.scss
++++ src/components/Base/Tag/index.scss
+@@ -27,7 +27,7 @@
+ 
+   &.primary {
+     color: $white;
+-    background-color: $green-color03;
++    background-color: $blue-color03;
+   }
+ 
+   &.info {

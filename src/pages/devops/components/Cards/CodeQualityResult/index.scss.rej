@@ -1,0 +1,11 @@
+--- src/pages/devops/components/Cards/CodeQualityResult/index.scss
++++ src/pages/devops/components/Cards/CodeQualityResult/index.scss
+@@ -94,7 +94,7 @@
+   height: 14px;
+   border-radius: 3px;
+   box-shadow: 0 2px 4px 0 rgba(245, 166, 35, 0.36);
+-  background-color: $green;
++  background-color: $blue-color04;
+ }
+ 
+ .C,

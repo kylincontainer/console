@@ -1,0 +1,10 @@
+--- src/components/Layout/GlobalNav/index.jsx
++++ src/components/Layout/GlobalNav/index.jsx
+@@ -41,7 +41,6 @@ class GlobalNav extends React.Component {
+ 
+   render() {
+     const { visible, navs, onCancel } = this.props
+-
+     return (
+       <Modal
+         visible={visible}

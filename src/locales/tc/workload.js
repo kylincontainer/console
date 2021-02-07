@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -530,8 +530,8 @@ export default {
     '容器組副本將會盡量部署在同一節點上',
   'Pod replicas will be deployed by the default policy.':
     '容器組副本將根據預設策略部署',
-  'KubeSphere supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
-    'Kubesphere 支持從鏡像倉庫拉取鏡像以及通過代碼構建新的鏡像並部署',
+  'KylinContainerCloud supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
+    '麒麟容器云支持從鏡像倉庫拉取鏡像以及通過代碼構建新的鏡像並部署',
 
   'Scheduling Info': '調度資訊',
   'Node Scheduling Info': '節點調度資訊',

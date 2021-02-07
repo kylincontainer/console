@@ -1,0 +1,15 @@
+--- src/utils/index.js
++++ src/utils/index.js
+@@ -363,6 +363,12 @@ export const getAliasName = item =>
+   get(item, 'metadata.annotations.displayName') ||
+   ''
+ 
++export const getSecureRank = item =>
++  get(
++    item,
++    'metadata.annotations["scheduler.alpha.kubernetes.io/node-selector"]'
++  ) || ''
++
+ export const getDisplayName = item => {
+   if (isEmpty(item)) {
+     return ''

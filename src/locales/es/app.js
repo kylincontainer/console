@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -147,25 +147,25 @@ export default {
   FILE_UPLOAD_MAX: 'El tamaño de fichero no puedes exceder 2M.',
 
   APP_TEMPLATE_DESC:
-    'KubeSphere proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
+    'KylinContainerCloud proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
   APP_TEMPLATE_CREATE_DESC:
-    'KubeSphere proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
+    'KylinContainerCloud proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
   APP_TEMPLATES_DESC:
-    'KubeSphere proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
+    'KylinContainerCloud proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
 
   DEVELOP_APP_TITLE: 'Cómo desarrollar plantillas de aplicación?',
   DEVELOP_APP_DESC:
-    'Puedes subir Charts de Helm o utilizar la herramienta de orquestación de recursos proporcionada por KubeSphere para desarrollar plantillas de aplicaciones.',
+    'Puedes subir Charts de Helm o utilizar la herramienta de orquestación de recursos proporcionada por KylinContainerCloud para desarrollar plantillas de aplicaciones.',
 
   HOW_PUBLISH_APP_TITLE:
     'Cómo publicar aplicaciones en la Tienda de Aplicaciones?',
   HOW_PUBLISH_APP_DESC:
-    'KubeSphere actualmente admite la subida de Charts de Helm a través de plantillas de aplicación dentro del espacio de trabajo, donde puedes enviar tu plantilla para su revisión. Una vez que se apruebe la plantilla, podrás publicarla en la Tienda de Aplicaciones.',
+    'KylinContainerCloud actualmente admite la subida de Charts de Helm a través de plantillas de aplicación dentro del espacio de trabajo, donde puedes enviar tu plantilla para su revisión. Una vez que se apruebe la plantilla, podrás publicarla en la Tienda de Aplicaciones.',
 
   HOW_APP_DEPLOY_TITLE: 'Cómo desplegar y probar Aplicaciones',
 
   APPS_CREATE_DESC:
-    'KubeSphere proporciona la gestión del ciclo de vida de las plantillas de aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus plantillas de aplicación en la Tienda de Aplicaciones para que otros usuarios puedan obtenerlas e implementarlas.',
+    'KylinContainerCloud proporciona la gestión del ciclo de vida de las plantillas de aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus plantillas de aplicación en la Tienda de Aplicaciones para que otros usuarios puedan obtenerlas e implementarlas.',
 
   APP_NAME_DESC: 'Identificación importante de Aplicaciones',
 
@@ -211,7 +211,7 @@ export default {
 
   RESOURCE_TOOL_TITLE: 'Creado usando el Coreógrafo de Recursos',
   RESOURCE_TOOL_DESCRIPTION:
-    'KubeSphere proporciona una herramienta de orquestación de recursos visuales que te permite' +
+    'KylinContainerCloud proporciona una herramienta de orquestación de recursos visuales que te permite' +
     ' crear plantillas de aplicación y desplegar pruebas mediante la pre-edición de recursos',
 
   APP_CREATE_GUIDE: 'Ver la especificación de desarrollo de aplicaciones',

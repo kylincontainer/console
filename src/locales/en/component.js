@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -27,14 +27,14 @@ export default {
   'Service Details': 'Service Details',
 
   SERVICE_COMPONENTS_DESC:
-    'This module monitors the health status of various service components in KubeSphere, Kubernetes, OpenPitrix and so on. It shows the health status and running time of the current cluster, and helps users monitor the status of the cluster and locate problems in time.',
+    'This module monitors the health status of various service components in KylinContainerCloud, Kubernetes, OpenPitrix and so on. It shows the health status and running time of the current cluster, and helps users monitor the status of the cluster and locate problems in time.',
 
   'KS-ACCOUNT_DESC': 'Provides users and authorizations management API',
   'KS-APIGATEWAY_DESC':
     'Responsible for processing service requests and handling all tasks in the API call process',
   'KS-APISERVER_DESC':
     'Serves the REST API endpoints and provides the frontend to the cluster’s shared state through which all other components interact, as well as cluster security control',
-  'KS-CONSOLE_DESC': 'Provides console services for KubeSphere',
+  'KS-CONSOLE_DESC': 'Provides console services for KylinContainerCloud',
   OPENLDAP_DESC:
     'Responsible for centralized storage and management of user account information',
   REDIS_DESC:

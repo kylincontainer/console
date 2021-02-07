@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -71,7 +71,7 @@ export default {
   Closed: '已关闭',
 
   PROJECT_CREATE_DESC:
-    'KubeSphere 中的项目对应的是 Kubernetes 的 namespace，是对一组资源和对象的抽象集合，常用来将系统内部的对象划分为不同的项目组或用户组。',
+    '麒麟容器云项目对应的是namespace，是对一组资源和对象的抽象集合，常用来将系统内部的对象划分为不同的项目组或用户组。',
   PROJECT_NAME_DESC: '项目名只能包含小写字母、数字及分隔符("-")',
   'Please input project name': '请输入项目名',
   'Invalid project name': '项目名格式不合法',
@@ -139,13 +139,13 @@ export default {
   Usage: '使用情况',
 
   PROJECTS_DESC:
-    'KubeSphere 中的项目对应的是 Kubernetes 的 namespace，是对一组资源和对象的抽象集合，常用来将系统内部的对象划分为不同的项目组或用户组。',
+    '项目对应的是 Kubernetes 的 namespace，是对一组资源和对象的抽象集合，常用来将系统内部的对象划分为不同的项目组或用户组。',
   PROJECT_BASEINFO_DESC: '项目基础信息设置',
   PROJECT_ADVANCE_DESC: '设置项目资源默认请求',
 
   PROJECT_TYPES_PROJECT_TITLE: '创建资源型项目',
   PROJECT_TYPES_PROJECT_DESC:
-    'KubeSphere 中的项目对应的是 Kubernetes 的 namespace，是对一组资源和对象的抽象集合，可以根据不同的业务部门或者产品项目进行资源分组。',
+    '项目对应的是 Kubernetes 的 namespace，是对一组资源和对象的抽象集合，可以根据不同的业务部门或者产品项目进行资源分组。',
   PROJECT_TYPES_DEVOPS_TITLE: '创建一个 DevOps 工程',
   PROJECT_TYPES_DEVOPS_DESC: '持续、自动地构建/测试软件项目。',
 

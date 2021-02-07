@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -28,13 +28,13 @@ export default {
   'Service Details': '服務詳情',
 
   SERVICE_COMPONENTS_DESC:
-    '服務組件提供 KubeSphere、Kubernetes 和 OpenPitrix 集群内各項服務組件的健康狀態監控，可以查看目前集群的健康狀態和運行時間，能夠幫助用戶監測集群的狀況和即時定位問題。',
+    '服務組件提供 KylinContainerCloud、Kubernetes 和 OpenPitrix 集群内各項服務組件的健康狀態監控，可以查看目前集群的健康狀態和運行時間，能夠幫助用戶監測集群的狀況和即時定位問題。',
 
   'KS-ACCOUNT_DESC': '提供用戶、權限管理相關的 API',
   'KS-APIGATEWAY_DESC': '負責處理服務請求和處理 API 調用過程中的所有任務',
   'KS-APISERVER_DESC':
     '整個集群管理的 API 介面和集群内部各個模組之間通信的樞紐，以及集群安全控制',
-  'KS-CONSOLE_DESC': '提供 KubeSphere 的控制台服務',
+  'KS-CONSOLE_DESC': '提供 KylinContainerCloud 的控制台服務',
   OPENLDAP_DESC: '負責集中儲存和管理用戶帳號資訊',
   REDIS_DESC: '將結構化的數據儲存在記憶體中的儲存系統',
 

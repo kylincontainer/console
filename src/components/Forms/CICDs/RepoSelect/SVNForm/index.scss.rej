@@ -1,0 +1,11 @@
+--- src/components/Forms/CICDs/RepoSelect/SVNForm/index.scss
++++ src/components/Forms/CICDs/RepoSelect/SVNForm/index.scss
+@@ -1,7 +1,7 @@
+ @import '~scss/variables';
+ 
+ .clickable {
+-  color: $green;
++  color: $blue-color04;
+   cursor: pointer;
+   margin-left: 15px;
+ }

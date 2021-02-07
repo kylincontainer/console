@@ -1,0 +1,11 @@
+--- src/pages/projects/components/Cards/Replica/Status/index.jsx
++++ src/pages/projects/components/Cards/Replica/Status/index.jsx
+@@ -150,7 +150,7 @@ export default class ReplicaStatus extends React.Component {
+ 
+     return (
+       <div className={classnames(styles.card, className, styles[theme])}>
+-        <img className={styles.cardImg} src="/assets/banner-icon-1.svg" />
++        {/* <img className={styles.cardImg} src="/assets/banner-icon-1.svg" /> */}
+         <div className={styles.chart}>
+           <SimpleCircle
+             theme={theme}

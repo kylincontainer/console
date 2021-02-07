@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -451,7 +451,7 @@ export default {
   SAVE_EDIT_HINTS:
     'confirma que el contenido modificado es correcto, puedes guardar la configuración o cancelar la configuración.',
   KS_DESCRIPTION:
-    'KubeSphere es un proyecto de código abierto que tiene como objetivo proporcionar una plataforma de contenedores multi-tenant de nivel empresarial sobre Kubernetes, la plataforma de orquestación de contenedores de referencia. KubeSphere proporciona una interfaz fácil de usar y permite realizar operaciones usando asistentes, reduciendo la curva de aprendizaje y el costo operativo de Kubernetes en términos del trabajo diario de desarrollo, prueba y mantenimiento.',
+    'KylinContainerCloud es un proyecto de código abierto que tiene como objetivo proporcionar una plataforma de contenedores multi-tenant de nivel empresarial sobre Kubernetes, la plataforma de orquestación de contenedores de referencia. KylinContainerCloud proporciona una interfaz fácil de usar y permite realizar operaciones usando asistentes, reduciendo la curva de aprendizaje y el costo operativo de Kubernetes en términos del trabajo diario de desarrollo, prueba y mantenimiento.',
   REPS_ADDRESS: 'GitHub',
   ISSUE_FEEDBACK: 'Feedback',
   PART_IN_DISCUSSION: 'Discusión',
@@ -468,7 +468,7 @@ export default {
   'rules text':
     '¿Cómo definir la colección de reglas de operación para los registros de auditoría?',
   'rules desc':
-    'KubeSphere puede recopilar registros de auditoría de operación de acuerdo con las reglas que establezcas. Haga clic para ver cómo definir las reglas.',
+    'KylinContainerCloud puede recopilar registros de auditoría de operación de acuerdo con las reglas que establezcas. Haga clic para ver cómo definir las reglas.',
   EVENT_CREATE_DESC:
     'Puedes cambiar los criterios de búsqueda y buscar nuevamente.',
   KUBECTL_DESC:
@@ -510,10 +510,11 @@ export default {
     'Tu navegador web no ha registrado ningún historial de acceso a clústeres o espacios de trabajo.',
   NO_HISTORY_DESC:
     'Puedes intentar acceder a recursos, como espacios de trabajo, clústeres o proyectos.',
-  USER_GUIDES_DESC: 'La guía de usuario más completa de KubeSphere.',
+  USER_GUIDES_DESC: 'La guía de usuario más completa de KylinContainerCloud.',
   DEVELOPER_DESC:
     'Haz una pregunta en la comunidad de desarrolladores para obtener ayuda.',
-  API_DOCS_DESC: 'La documentación más completa de la API de KubeSphere.',
+  API_DOCS_DESC:
+    'La documentación más completa de la API de KylinContainerCloud.',
   GITHUB_ISSUES_DESC:
     'Puedes plantear un problema en GitHub para obtener ayuda.',
 

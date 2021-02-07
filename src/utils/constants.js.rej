@@ -1,0 +1,222 @@
+--- src/utils/constants.js
++++ src/utils/constants.js
+@@ -571,7 +571,7 @@ export const COLORS_MAP = {
+   lightest: '#f9fbfd',
+   dark: '#242e42',
+   grey: '#e3e9ef',
+-  green: '#55bc8a',
++  green: '#167be0',
+   blue: '#329dce',
+   red: '#ca2621',
+   yellow: '#f5a623',
+@@ -602,108 +602,108 @@ export const MILLISECOND_IN_TIME_UNIT = {
+ }
+ 
+ export const PROVISIONERS = [
+-  {
+-    label: 'QingCloud CSI',
+-    value: 'disk.csi.qingcloud.com',
+-    icon: 'qingcloud',
+-    access_modes: ['ReadWriteOnce'],
+-    params: [
+-      {
+-        key: 'type',
+-        type: 'input',
+-        desc: 'QINGCLOUD_CSI_TYPE_DESC',
+-      },
+-      {
+-        key: 'maxSize',
+-        type: 'input',
+-        desc: 'CREATE_VOLUME_MAX_SIZE',
+-      },
+-      {
+-        key: 'stepSize',
+-        type: 'input',
+-        desc: 'CREATE_VOLUME_STEP_SIZE',
+-      },
+-      {
+-        key: 'minSize',
+-        type: 'input',
+-        desc: 'CREATE_VOLUME_MIN_SIZE',
+-      },
+-      {
+-        key: 'fsType',
+-        type: 'input',
+-        defaultValue: 'ext4',
+-        desc: 'VOLUME_FS_TYPE',
+-      },
+-      {
+-        key: 'tags',
+-        type: 'input',
+-        desc: 'QINGCLOUD_VOLUME_TAGS_DESC',
+-      },
+-    ],
+-    description: 'QINGCLOUD_CSI_DESC',
+-  },
+-  {
+-    label: 'Glusterfs',
+-    value: 'kubernetes.io/glusterfs',
+-    icon: 'glusterfs',
+-    access_modes: ['ReadWriteOnce', 'ReadOnlyMany', 'ReadWriteMany'],
+-    params: [
+-      {
+-        key: 'resturl',
+-        type: 'input',
+-        placeholder: 'IPaddress:Port',
+-        desc: 'GLUSTERFS_RESTURL_DESC',
+-      },
+-      {
+-        key: 'clusterid',
+-        type: 'input',
+-        desc: 'GLUSTERFS_ID_DESC',
+-      },
+-      {
+-        key: 'restauthenabled',
+-        type: 'select',
+-        defaultValue: 'true',
+-        options: [
+-          { label: 'True', value: 'true' },
+-          { label: 'False', value: 'false' },
+-        ],
+-        desc: 'GLUSTERFS_RESTAUTHENABLED_DESC',
+-      },
+-      {
+-        key: 'restuser',
+-        type: 'input',
+-        placeholder: 'rbd',
+-        desc: 'GLUSTERFS_RESTUSER_DESC',
+-      },
+-      {
+-        key: 'secretNamespace',
+-        type: 'input',
+-        desc: 'GLUSTERFS_SECRET_NAMESPACE_DESC',
+-      },
+-      {
+-        key: 'secretName',
+-        type: 'input',
+-        desc: 'GLUSTERFS_SECRET_NAME_DESC',
+-      },
+-      {
+-        key: 'gidMin',
+-        type: 'input',
+-        placeholder: '2000-2147483647',
+-        desc: 'GLUSTERFS_GID_MIN_DESC',
+-      },
+-      {
+-        key: 'gidMax',
+-        type: 'input',
+-        placeholder: '2000-2147483647',
+-        desc: 'GLUSTERFS_GID_MAX_DESC',
+-      },
+-      {
+-        key: 'volumetype',
+-        type: 'input',
+-        desc: 'GLUSTERFS_VOLUME_TYPE_DESC',
+-      },
+-    ],
+-  },
++  // {
++  //   label: 'QingCloud CSI',
++  //   value: 'disk.csi.qingcloud.com',
++  //   icon: 'qingcloud',
++  //   access_modes: ['ReadWriteOnce'],
++  //   params: [
++  //     {
++  //       key: 'type',
++  //       type: 'input',
++  //       desc: 'QINGCLOUD_CSI_TYPE_DESC',
++  //     },
++  //     {
++  //       key: 'maxSize',
++  //       type: 'input',
++  //       desc: 'CREATE_VOLUME_MAX_SIZE',
++  //     },
++  //     {
++  //       key: 'stepSize',
++  //       type: 'input',
++  //       desc: 'CREATE_VOLUME_STEP_SIZE',
++  //     },
++  //     {
++  //       key: 'minSize',
++  //       type: 'input',
++  //       desc: 'CREATE_VOLUME_MIN_SIZE',
++  //     },
++  //     {
++  //       key: 'fsType',
++  //       type: 'input',
++  //       defaultValue: 'ext4',
++  //       desc: 'VOLUME_FS_TYPE',
++  //     },
++  //     {
++  //       key: 'tags',
++  //       type: 'input',
++  //       desc: 'QINGCLOUD_VOLUME_TAGS_DESC',
++  //     },
++  //   ],
++  //   description: 'QINGCLOUD_CSI_DESC',
++  // },
++  // {
++  //   label: 'Glusterfs',
++  //   value: 'kubernetes.io/glusterfs',
++  //   icon: 'glusterfs',
++  //   access_modes: ['ReadWriteOnce', 'ReadOnlyMany', 'ReadWriteMany'],
++  //   params: [
++  //     {
++  //       key: 'resturl',
++  //       type: 'input',
++  //       placeholder: 'IPaddress:Port',
++  //       desc: 'GLUSTERFS_RESTURL_DESC',
++  //     },
++  //     {
++  //       key: 'clusterid',
++  //       type: 'input',
++  //       desc: 'GLUSTERFS_ID_DESC',
++  //     },
++  //     {
++  //       key: 'restauthenabled',
++  //       type: 'select',
++  //       defaultValue: 'true',
++  //       options: [
++  //         { label: 'True', value: 'true' },
++  //         { label: 'False', value: 'false' },
++  //       ],
++  //       desc: 'GLUSTERFS_RESTAUTHENABLED_DESC',
++  //     },
++  //     {
++  //       key: 'restuser',
++  //       type: 'input',
++  //       placeholder: 'rbd',
++  //       desc: 'GLUSTERFS_RESTUSER_DESC',
++  //     },
++  //     {
++  //       key: 'secretNamespace',
++  //       type: 'input',
++  //       desc: 'GLUSTERFS_SECRET_NAMESPACE_DESC',
++  //     },
++  //     {
++  //       key: 'secretName',
++  //       type: 'input',
++  //       desc: 'GLUSTERFS_SECRET_NAME_DESC',
++  //     },
++  //     {
++  //       key: 'gidMin',
++  //       type: 'input',
++  //       placeholder: '2000-2147483647',
++  //       desc: 'GLUSTERFS_GID_MIN_DESC',
++  //     },
++  //     {
++  //       key: 'gidMax',
++  //       type: 'input',
++  //       placeholder: '2000-2147483647',
++  //       desc: 'GLUSTERFS_GID_MAX_DESC',
++  //     },
++  //     {
++  //       key: 'volumetype',
++  //       type: 'input',
++  //       desc: 'GLUSTERFS_VOLUME_TYPE_DESC',
++  //     },
++  //   ],
++  // },
+   {
+     label: 'Ceph RBD',
+     value: 'ceph.com/rbd',
